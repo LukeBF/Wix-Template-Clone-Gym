@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Wix Clone</title>
+        <script src="https://kit.fontawesome.com/098dc84e4b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style-home.css">
+    </head>
+    <body>
+        <!--NAVIGATION AND SIGN IN-->
+        <header id="main-nav" class="grid">
+            <div class="logo">
+                <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
+                <h2>ONYX</h2>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">FACILITIES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">MEMBERSHIP</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <i class="fas fa-user-circle"></i>
+                <a href="#">Log In</a>
+            </div>
+
+            <div class="sign-in-links">
+                <a href="#">Join Now</a>
+            </div>
+        </header>
+
+        <!--WELCOME-->
+        <section id="welcome-hero" class="grid">
+            <div>
+                <h1>Welcome to Onyx</h1>
+                <p>
+                    The fitness facility for all of your needs
+                </p>
+                <a href="#">Join Now</a>
+            </div>
+        </section>
+
+        <!--MAIN-->
+        <main>
+            <section id="experience-section" class="grid grid-col-2 container">
+                <div>
+                    <img src="./img/runner.jpg" alt="a man sprinting">
+                </div>
+                
+                <div>
+                    <div class="experience-section-text">
+                        <h2>The Onyx Experience</h2>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                        </p>
+                        <a href="#" class="primary-links">Learn More</a>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="experience-section-text">
+                        <h2>Fitness Is For Everyone</h2>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                        </p>
+                        <a href="#" class="primary-links">Reserve a Spot</a>
+                    </div>
+
+                </div>
+                
+                <div>
+                    <img src="./img/fitness-group.jpg" alt="three women in exercise wear">
+                </div>
+            </section>
+        
+            <!--FACILITIES-->
+            <section id="facilities-section">
+                <div>
+                    <h2>Top Notch Facilities</h2>
+                    <p>
+                        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                    </p>
+                </div>
+                
+                <div id="facilities-images" class="grid grid-col-3">
+                    <div>
+                        <img src="./img/facilities-pool.jpg" alt="indoor swimming pool">
+                    </div>
+                    
+                    <div>
+                        <img src="./img/locker-room.jpg" alt="a bag and shoes in a locker room">
+                    </div>
+                    
+                    <div>
+                        <img src="./img/facilities-gym.jpg" alt="exercise equipment">
+                    </div>
+                </div>
+                
+                <a href="#" class="primary-links">View All</a>
+            </section>
+        </main>
+        
+        <!--FOOTER-ADDRESS-->
+        <footer id="container-footer" class="grid grid-col-3">
+            <div>
+                <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">
+                <h2>ONYX</h2>
+                <p>
+                    500 Terry Francois Street<br>
+                    San Francisco, CA 94158<br>
+                    info@mysite.com<br>
+                    123-456-7890
+                </p>
+                
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <div id="copyright">
+                    <p>
+                        &#169 2023 by Onyx. Proudly created by twh.com
+                    </p>
+                </div>
+            </div>
+        
+            <!--FOOTER-CONTACT INFO-->
+            <div>
+                <h3>
+                    Note a Member? Get a 45 Day Free-Trial
+                </h3>
+                <p>
+                    Fill out the form below and a sales rep will get in touch shortly.
+                </p>
+
+                <!--testing-->
+                <form id="member-form"></form>
+                    <div id="name-form" class="grid grid-col-2">
+                    
+                        <div id="box-1">
+                            <label for="f-name">First Name</label> <br>
+                            <input type="text" id="f-name">
+                        </div>
+
+                        <div id="box-2">
+                            <label for="l-name">Last Name</label> <br>
+                            <input type="text" id="l-name">
+                        </div>
+                    
+                    </div>
+
+             
+                    <div id="mail-message-form">
+                        <label for="mail">Email</label> <br>
+                        <input type="email"> <br>
+    
+                        <label for="message">Add a message</label> <br>
+                        <textarea id="message" cols="30" rows="10"></textarea> <br>
+                    </div>
+
+
+                
+                    <button type="submit" class="secondary-links">Submit</button>
+                </form>
+            </div>
+
+            <!--FOOTER-NAV-->
+            <div id="nav-footer">
+                <h3>Menu</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Membership</a></li>
+                    </ul>
+                </nav>
+
+                <a href="#" id="safety-policies">Safety Policies</a>
+            </div>
+
+        </footer>
+    </body>
+</html>
