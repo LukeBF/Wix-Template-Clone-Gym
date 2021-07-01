@@ -4,15 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Wix Clone</title>
+        <title>Wix Template Clone</title>
         <script src="https://kit.fontawesome.com/098dc84e4b.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style-home.css">
+        <link rel="stylesheet" href="./css/utilities.css">
     </head>
     <body>
         <!--NAVIGATION AND SIGN IN-->
-        <header id="main-nav" class="grid">
+        <header class="header grid grid-col-3-header">
             <div class="logo">
                 <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
                 <h2>ONYX</h2>
@@ -24,20 +25,23 @@
                     <li><a href="#">FACILITIES</a></li>
                     <li><a href="#">SERVICES</a></li>
                     <li><a href="#">MEMBERSHIP</a></li>
+                    <div>
+                        <span><i class="fas fa-user-circle"></i></span>
+                        <span><a href="#">Log In</a></span>               
+                    </div>
                 </ul>
             </nav>
-
-            <div>
-                <i class="fas fa-user-circle"></i>
-                <a href="#">Log In</a>
-            </div>
+            <!-- <div>
+                <span><i class="fas fa-user-circle"></i></span>
+                <span><a href="#">Log In</a></span>               
+            </div> -->
 
             <div class="sign-in-links">
                 <a href="#">Join Now</a>
             </div>
         </header>
 
-        <!--WELCOME-->
+        <!--HERO -->
         <section id="welcome-hero" class="grid">
             <div>
                 <h1>Welcome to Onyx</h1>
@@ -91,7 +95,7 @@
                     </p>
                 </div>
                 
-                <div id="facilities-images" class="grid grid-col-3">
+                <div id="facilities-images" class="grid grid-col-3-facilities">
                     <div>
                         <img src="./img/facilities-pool.jpg" alt="indoor swimming pool">
                     </div>
@@ -110,7 +114,7 @@
         </main>
         
         <!--FOOTER-ADDRESS-->
-        <footer id="container-footer" class="grid grid-col-3">
+        <footer id="container-footer" class="grid grid-col-3-footer">
             <div>
                 <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">
                 <h2>ONYX</h2>

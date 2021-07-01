@@ -1,0 +1,71 @@
+/* *****Variables Declaration***** */
+:root
+{
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #C4306B;
+
+    --primary-font-color: #000000;
+    --secondary-font-color: #FFFFFF;
+
+    --primary-link-bg-color: #FFFFFF;
+    --secondary-link-bg-color: #C4306B;
+}
+
+/* *****General Styles***** */
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+/* *****Grids***** */
+.grid
+{
+    display: grid;
+}
+
+.grid-col-2
+{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-col-3-header
+{
+    grid-template-columns: 1fr 80% 10%
+}
+
+.grid-col-3-facilities, .grid-col-3-footer
+{
+    grid-template-columns: repeat(3,1fr)
+}
+
+/* *****Links***** */
+.primary-links
+{
+    background-color: var(--primary-link-bg-color);
+    color: var(--primary-font-color);
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    text-decoration: none;
+}
+
+.secondary-links
+{
+    background-color: var(--secondary-link-bg-color);
+    color: var(--secondary-font-color);
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+}
