@@ -1,7 +1,7 @@
 # Wix Template Clone
 
 # About the Project
----
+
 ## Description
 A static website clone of the Wix template - Gym. Its only purpose is to provide information and imagery to the user and does not include any JavaScript functionality or features. Considered as a basic website with minimal features, the only web technologies used were HTML and CSS. These were used to practice the foundation concepts of website development.
 
@@ -27,11 +27,11 @@ The main reason for doing this project was to get practice with the skeleton cod
 In terms of linking documents and resources, this project provided meaningful experience with linking external CSS files to the HTML document, and also external resources like Fontawesome and Google Fonts.
 
 # Resources
----
+
 ## Fontawesome
+[Fontawesome](https://fontawesome.com/)
 - Social media icons
 - Log in profile icon
-[Fontawesome](https://fontawesome.com/)
 
 ## Wix Template
 [Wix Gym Template](https://editor.wix.com/html/editor/web/renderer/edit/a4251a01-1d7e-42a2-8343-b95ac8c665d4?metaSiteId=9e20cb90-3b9b-47ec-aa6c-f9b68906e08c&editorSessionId=5a088b0b-a9a9-4fdf-b4ca-10525e2e5375&_gl=1*uz16ju*_ga*MTE0NDkxNjM4Ni4xNjI1MTc2ODA5*_ga_H314XQHSPY*MTYyNTE3NjgwOS4xLjAuMTYyNTE3NjgwOS42MA)
