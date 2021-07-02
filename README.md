@@ -40,4 +40,4 @@ In terms of linking documents and resources, this project provided meaningful ex
 A Wix account is required to view and edit the template. You can also use a Google account to sign in.
 
 ## Google Fonts
-Poppins: [title](https://fonts.google.com/specimen/Poppins?query=poppins)
+Poppins: [Poppins Font](https://fonts.google.com/specimen/Poppins?query=poppins)
