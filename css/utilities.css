@@ -33,6 +33,11 @@ li
     display: grid;
 }
 
+.grid-col-1
+{
+    grid-template-columns: 1fr;
+}
+
 .grid-col-2
 {
     grid-template-columns: repeat(2,1fr);
@@ -68,4 +73,27 @@ li
     border: 0;
     width: 100%;
     font-size: 1rem;
+}
+
+@media (max-width: 575.98px) {
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header,
+    .grid-col-2
+    {
+        /* convert image to full width and stack one on top the other */
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        padding: 10px 20px;
+        text-align: center;
+        width: 80%;
+        justify-self: center;   
+    }
+
+
+
 }
