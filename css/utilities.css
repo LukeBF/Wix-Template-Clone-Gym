@@ -59,9 +59,11 @@ li
     background-color: var(--primary-link-bg-color);
     color: var(--primary-font-color);
     padding: 20px 40px;
-    border-radius: 50px;
-    border: 2px solid #000000;
+    width: 50%;
+    border-radius: 50rem;
+    border: 2px solid #000;
     text-decoration: none;
+    text-align: center;
 }
 
 .secondary-links
@@ -74,6 +76,78 @@ li
     width: 100%;
     font-size: 1rem;
 }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header
+    /* .grid-col-2 */
+    {
+        /* convert image to full width and stack one on top the other */
+        grid-template-columns: 1fr;
+    }
+
+    .grid-col-2
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .primary-links
+    {
+        padding: 10px 20px;
+        text-align: center;
+        justify-self: center;  
+        padding: 10px;
+    }
+
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header,
+    .grid-col-2
+    {
+        /* convert image to full width and stack one on top the other */
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        padding: 10px 20px;
+        text-align: center;
+        justify-self: center;  
+        padding: 15px;
+    } 
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header,
+    .grid-col-2
+    {
+        /* convert image to full width and stack one on top the other */
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        padding: 10px 20px;
+        text-align: center;
+        justify-self: center;  
+        padding: 10px;
+    } 
+}
+
+/* ------------------------------------------------------------------- */
 
 @media (max-width: 575.98px) {
     #facilities-images,
@@ -90,10 +164,7 @@ li
     {
         padding: 10px 20px;
         text-align: center;
-        width: 80%;
-        justify-self: center;   
+        justify-self: center;  
+        padding: 10px;
     }
-
-
-
 }

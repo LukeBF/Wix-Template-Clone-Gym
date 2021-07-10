@@ -125,10 +125,11 @@
 .container
 {
     background-color: var(--primary-bg-color);
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     position: relative;
     top: -25vh;
+
 }
 
 .container div:nth-child(1) > img, .container div:nth-child(4) > img
@@ -142,6 +143,11 @@
 {
     margin: 0 -80px;
 }
+
+/* #experience-section a
+{
+    width: 40%;
+} */
 
 .experience-section-text > h2
 {
@@ -369,27 +375,6 @@ input:hover
 
 /* *****Media Queries***** */
 
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-   
-
-    .main-header
-    {
-        background-color: red;
-        height: auto;
-    }
-
-    .logo
-    {
-        width: 150%;
-    }
-
-    .main-header > div > h2
-    {
-        font-size: 1.2rem;
-    }
-
- }
 
 
     

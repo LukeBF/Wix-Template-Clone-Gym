@@ -1,27 +1,23 @@
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1300.98px) {
     /* *****Logo***** */
     .logo{
         text-align: center;
         width: auto;
         background-color: #ffffff;
     }
-    /* *****Main Header***** */
-    .main-header
-    {
-        background-color: yellow;
-    }
 
+    /* *****Main Header***** */
     .main-header > nav{
         width: 100%;
         text-align: center;
-        display: none;
+        /* display: none; */
     }
 
-    .main-header > nav li
+    /* .main-header > nav li
     {
         display: block;
-    }
+    } */
 
     .main-header > nav:nth-child(2) span > i
     {
@@ -35,7 +31,6 @@
 
     .main-header > div:nth-child(3) 
     {
-        /* height: 10vh; */
         height: auto;
         padding: 10px;
         justify-content: center;
@@ -101,7 +96,7 @@
     .container div:nth-child(4) > img {
         width: 100%;
         display: block;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
 
@@ -147,12 +142,12 @@
         margin-bottom: 20px;
     }
 
-    #facilities-images > div:nth-child(2), #facilities-images > div:nth-child(3){
+    /* #facilities-images > div:nth-child(2){
         display: none;
-    }
+    } */
 
-    #facilities-images > div:nth-child(1){
-        padding: 20px;
+    #facilities-images > div:nth-child(1), #facilities-images > div:nth-child(3), #facilities-images > div:nth-child(2){
+        padding: 40px;
     }
 
     /* *****Footer***** */
@@ -210,11 +205,10 @@
     }
 }
 
-/* ----------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
 
- 
- /* Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) { 
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
     /* *****Logo***** */
     .logo{
         text-align: center;
@@ -222,21 +216,16 @@
         background-color: #ffffff;
     }
     /* *****Main Header***** */
-    .main-header
-    {
-        background-color: yellow;
-    }
-
     .main-header > nav{
         width: 100%;
         text-align: center;
-        display: none;
+        /* display: none; */
     }
 
-    .main-header > nav li
+    /* .main-header > nav li
     {
         display: block;
-    }
+    } */
 
     .main-header > nav:nth-child(2) span > i
     {
@@ -250,7 +239,6 @@
 
     .main-header > div:nth-child(3) 
     {
-        /* height: 10vh; */
         height: auto;
         padding: 10px;
         justify-content: center;
@@ -316,7 +304,7 @@
     .container div:nth-child(4) > img {
         width: 100%;
         display: block;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
 
@@ -362,12 +350,12 @@
         margin-bottom: 20px;
     }
 
-    #facilities-images > div:nth-child(2), #facilities-images > div:nth-child(3){
+    #facilities-images > div:nth-child(2){
         display: none;
     }
 
-    #facilities-images > div:nth-child(1){
-        padding: 20px;
+    #facilities-images > div:nth-child(1), #facilities-images > div:nth-child(3){
+        padding: 40px;
     }
 
     /* *****Footer***** */
