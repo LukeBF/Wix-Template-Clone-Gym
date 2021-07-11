@@ -108,6 +108,8 @@
     #experience-section-text{
         width: 60%;
         height: auto;
+        padding: 10px;
+        
     }
 
     #experience-section-text a{
@@ -377,7 +379,6 @@
         text-align: center;
         position: relative;
         justify-items: center;
-        
     }
 
     #container-footer > div:nth-child(1) {

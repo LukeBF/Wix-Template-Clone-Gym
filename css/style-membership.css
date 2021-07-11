@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *****Hero***** */
+
+.hero
+{
+    background-color: #0B7FA2;
+    height: 70vh;
+    color: var(--secondary-font-color);
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero > div
+{
+    position: relative;
+    top: -100px;
+}
+
+.hero > div, .hero > div > div
+{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero > div > h2
+{
+    font-size: 4rem;
+}
+
+/* *****Member Cards***** */
+.main
+{
+    position: relative;
+}
+
+.member-cards
+{
+    width: 80%;
+    margin: 0 auto;
+    column-gap: 5rem;
+    position: relative;
+    top: -150px;
+    justify-items: center;
+    /* background-color: var(--primary-bg-color); */
+}
+
+.member-cards > div
+{
+    position: relative;
+    background-color: var(--primary-bg-color);
+    width: 100%;
+    text-align: center;
+    border: 1px solid var(--primary-font-color);
+    height: 50vh;
+}
+
+.member-cards > div > h3
+{
+    padding: 20px 0 10px 0;
+}
+
+.member-cards > div > p:nth-child(2)
+{
+    font-size: 1.2rem;
+}
+
+.price
+{
+    font-size: 5rem;
+}
+
+.member-cards > div > button
+{
+    width: 80%;
+    padding: 15px;
+    background-color: var(--secondary-bg-color);
+    border-style: none;
+    color: var(--secondary-font-color);
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.card-description
+{
+    position: absolute;
+    top: 225px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+
+.package-period
+{
+    position: absolute;
+    top: 300px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 0.8rem;   
+}
+
+.renewal
+{
+    font-weight: bold;
+}

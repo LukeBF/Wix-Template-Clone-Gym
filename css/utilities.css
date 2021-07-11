@@ -43,6 +43,11 @@ li
     grid-template-columns: repeat(2,1fr);
 }
 
+.grid-col-3
+{
+    grid-template-columns: repeat(3,1fr);
+}
+
 .grid-col-3-header
 {
     grid-template-columns: 1fr 80% 10%
@@ -119,10 +124,12 @@ li
 
     .primary-links
     {
-        padding: 10px 20px;
+        padding: 0 20px;
         text-align: center;
         justify-self: center;  
         padding: 15px;
+        margin-bottom: 20px;
+        
     } 
 }
 
@@ -144,6 +151,7 @@ li
         text-align: center;
         justify-self: center;  
         padding: 10px;
+        margin-bottom: 20px;
     } 
 }
 
@@ -162,9 +170,10 @@ li
 
     .primary-links
     {
-        padding: 10px 20px;
+        padding: 0 20px;
         text-align: center;
         justify-self: center;  
         padding: 10px;
+        margin-bottom: 20px;
     }
 }

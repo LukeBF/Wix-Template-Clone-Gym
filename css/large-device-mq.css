@@ -5,6 +5,7 @@
         text-align: center;
         width: auto;
         background-color: #ffffff;
+        padding: 0;
     }
 
     /* *****Main Header***** */
@@ -13,11 +14,6 @@
         text-align: center;
         /* display: none; */
     }
-
-    /* .main-header > nav li
-    {
-        display: block;
-    } */
 
     .main-header > nav:nth-child(2) span > i
     {
@@ -31,15 +27,15 @@
 
     .main-header > div:nth-child(3) 
     {
-        height: auto;
-        padding: 10px;
+        height: 10vh;
+        padding: 0; 
         justify-content: center;
         align-items: center;
     } 
 
     .main-header > div:nth-child(3) > a
     {
-        padding: 15px;
+        padding: 35px;
         color: #ffffff;
     }
 
@@ -64,7 +60,7 @@
 
     #welcome-hero > div > h1
     {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     #welcome-hero > div > p
@@ -272,7 +268,7 @@
 
     #welcome-hero > div > h1
     {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     #welcome-hero > div > p

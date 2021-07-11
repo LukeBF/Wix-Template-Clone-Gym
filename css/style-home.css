@@ -129,7 +129,6 @@
     margin: 0 auto;
     position: relative;
     top: -25vh;
-
 }
 
 .container div:nth-child(1) > img, .container div:nth-child(4) > img
@@ -238,6 +237,8 @@ input:hover
 {
     margin-top: 80px;
     padding-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* **Left Container** */
