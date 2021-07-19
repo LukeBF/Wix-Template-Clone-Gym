@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Wix Template Clone</title>
         <script src="https://kit.fontawesome.com/098dc84e4b.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -13,10 +12,10 @@
         <link rel="stylesheet" href="./css/phone-mq.css">
         <link rel="stylesheet" href="./css/tablet-mq.css">
         <link rel="stylesheet" href="./css/large-device-mq.css">
-
+        <title>Wix Template Clone</title>
     </head>
     <body>
-        <!--NAVIGATION AND SIGN IN-->
+        <!--Navigation and sign in-->
         <header class="main-header grid grid-col-3-header">
             <div class="logo">
                 <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
@@ -28,7 +27,7 @@
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">FACILITIES</a></li>
                     <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">MEMBERSHIP</a></li>
+                    <li><a href="./html/membership.html">MEMBERSHIP</a></li>
                     <div>
                         <span><i class="fas fa-user-circle"></i></span>
                         <span><a href="#">Log In</a></span>               
@@ -45,7 +44,7 @@
             </div>
         </header>
 
-        <!--HERO -->
+        <!--Hero-->
         <section id="welcome-hero" class="grid">
             <div>
                 <h1>Welcome to Onyx</h1>
@@ -56,7 +55,7 @@
             </div>
         </section>
 
-        <!--MAIN-->
+        <!--Main-->
         <main>
             <section id="experience-section" class="container grid grid-col-2">
                 <div>
@@ -90,7 +89,7 @@
                 </div>
             </section>
         
-            <!--FACILITIES-->
+            <!--Facilities-->
             <section id="facilities-section">
                 <div>
                     <h2>Top Notch Facilities</h2>
@@ -117,8 +116,9 @@
             </section>
         </main>
         
-        <!--FOOTER-ADDRESS-->
-        <footer id="container-footer" class="grid grid-col-3-footer">
+        <!--Footer -->
+        <footer class="container-footer-home grid grid-col-3-footer">
+            <!-- Footer-Left-Panel -->
             <div>
                 <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">
                 <h2>ONYX</h2>
@@ -139,7 +139,7 @@
                 </div>
             </div>
         
-            <!--FOOTER-CONTACT INFO-->
+            <!--Footer-Center-Panel-->
             <div>
                 <h3>
                     Note a Member? Get a 45 Day Free-Trial
@@ -148,9 +148,8 @@
                     Fill out the form below and a sales rep will get in touch shortly.
                 </p>
 
-                <!--testing-->
                 <form id="member-form"></form>
-                    <div id="name-form" class="grid grid-col-2">
+                    <div id="name-form">
                     
                         <div id="box-1">
                             <label for="f-name">First Name</label> <br>
@@ -165,18 +164,21 @@
                     </div>
              
                     <div id="mail-message-form">
-                        <label for="mail">Email</label> <br>
-                        <input type="email"> <br>
-    
-                        <label for="message">Add a message</label> <br>
-                        <textarea id="message" cols="30" rows="10"></textarea> <br>
+                        <div>
+                            <label for="mail">Email</label> <br>
+                            <input type="email"> <br>
+                        </div>
+                        <div>
+                            <label for="message">Add a message</label> <br>
+                            <textarea id="message" cols="30" rows="10"></textarea> <br>
+                        </div>
                     </div>
 
                     <button type="submit" class="secondary-links">Submit</button>
                 </form>
             </div>
 
-            <!--FOOTER-NAV-->
+            <!--Footer-Right-Panel-->
             <div id="nav-footer">
                 <h3>Menu</h3>
                 <nav>

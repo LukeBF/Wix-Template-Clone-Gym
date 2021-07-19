@@ -1,4 +1,4 @@
-/* Large devices (desktops, less than 1200px) */
+/* Large devices (desktops, less than 1300px) */
 @media (max-width: 1300.98px) {
     /* *****Logo***** */
     .logo{
@@ -6,6 +6,11 @@
         width: auto;
         background-color: #ffffff;
         padding: 0;
+    }
+
+    .main-header
+    {
+        width: 100%;
     }
 
     /* *****Main Header***** */
@@ -23,14 +28,6 @@
     .main-header > nav:nth-child(2) span, .main-header > nav:nth-child(2) span > a
     {
        display: none;
-    } 
-
-    .main-header > div:nth-child(3) 
-    {
-        height: 10vh;
-        padding: 0; 
-        justify-content: center;
-        align-items: center;
     } 
 
     .main-header > div:nth-child(3) > a
@@ -78,9 +75,9 @@
         padding: 20px 40px;
         border-radius: 30px;
         text-decoration: none;
-    }
+    }    
 
-    /* *****Main Home Page Content***** */
+    /* *****Main***** */
 
     .container
     {
@@ -120,7 +117,7 @@
     /* *****Facilities***** */
 
     #facilities-section {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
     #facilities-section > div:nth-child(1) {
@@ -138,10 +135,6 @@
         margin-bottom: 20px;
     }
 
-    /* #facilities-images > div:nth-child(2){
-        display: none;
-    } */
-
     #facilities-images > div:nth-child(1), #facilities-images > div:nth-child(3), #facilities-images > div:nth-child(2){
         padding: 40px;
     }
@@ -153,7 +146,6 @@
         text-align: center;
         position: relative;
         justify-items: center;
-        
     }
 
     #container-footer > div:nth-child(1) {
@@ -165,6 +157,7 @@
     #container-footer > div:nth-child(2) {
         max-width: 70%;
         margin: 20px auto;
+        padding: 0;
     }
 
     #name-form {
@@ -198,10 +191,10 @@
         position: absolute;
         bottom: 0;
         margin: 0 auto;
-    }
+    } 
 }
 
-/* ------------------------------------------------------------------------------- */
+/* ******************************************************************** */
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -212,16 +205,16 @@
         background-color: #ffffff;
     }
     /* *****Main Header***** */
+    .main-header
+    {
+        height: 0;
+    }
+
     .main-header > nav{
         width: 100%;
         text-align: center;
-        /* display: none; */
+        display: none;
     }
-
-    /* .main-header > nav li
-    {
-        display: block;
-    } */
 
     .main-header > nav:nth-child(2) span > i
     {
@@ -236,7 +229,7 @@
     .main-header > div:nth-child(3) 
     {
         height: auto;
-        padding: 10px;
+        padding: 0;
         justify-content: center;
         align-items: center;
     } 
@@ -289,10 +282,8 @@
     }
 
     /* *****Main Home Page Content***** */
-
     .container
     {
-        /* position items in experience section full width */
         width: 100vw;
         position: static;
     }
@@ -328,7 +319,7 @@
     /* *****Facilities***** */
 
     #facilities-section {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
     #facilities-section > div:nth-child(1) {
@@ -355,32 +346,151 @@
     }
 
     /* *****Footer***** */
-    #container-footer {
-        margin-top: 30px;
-        padding-bottom: 100px;
-        text-align: center;
-        position: relative;
-        justify-items: center;
-        
+    .container-footer
+    {
+        top: 2rem;
     }
 
-    #container-footer > div:nth-child(1) {
+    .container-footer > div:nth-child(1)
+    {
+        position: static;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-footer > div:nth-child(1),
+    .container-footer > div:nth-child(3),
+    .container-footer > div:nth-child(2) > h3,
+    .container-footer > div:nth-child(2) > p
+    {
+        line-height: 2rem;
+    }
+
+
+    .container-footer > div:nth-child(2)
+    {
+        width: 40%;
+        margin-top: 2rem;
+    }
+
+    .container-footer > div:nth-child(3)
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #name-form > div:nth-child(1), #name-form > div:nth-child(2)
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #name-form > div:nth-child(2)
+    {
+        margin-left: 0;
+    }
+
+    input
+    {
+        width: 100%;
+    }
+
+    .container-footer > div:nth-child(2) > h3,
+    .container-footer > div:nth-child(2) > p
+    {
+        text-align: center;
+    }
+
+    #copyright > p
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #safety-policies
+    {
+        position: relative;
+        bottom: 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+
+    /* Membership-Page */
+
+    /* Cards */
+    .member-cards
+    {
+        row-gap: 2rem;
+    }
+
+    .member-cards > article:nth-child(1), 
+    .member-cards > article:nth-child(2), 
+    .member-cards > article:nth-child(3)
+    {
+        position: static;
+        width: 60%;
+    }
+
+    .member-cards > article > button,
+    .package-period,
+    .card-description
+    {
+        position: static;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .container-footer {
+        margin-top: 30px;
+        padding-bottom: 100px;
+        text-align: center; 
+        position: relative;
+        justify-items: center;
+        top: 0;
+        
+    } 
+
+    .container-footer > div:nth-child(1) {
         justify-self: center; 
         width: 60%;
         position: static;
     }
 
-    #container-footer > div:nth-child(2) {
+    .container-footer > div:nth-child(2) {
         max-width: 70%;
         margin: 20px auto;
+        width: 50%;
     }
 
-    #name-form {
-        height: auto
-    }
-
-    #mail-message-form {
-        margin-top: 0;
+    #name-form > div:nth-child(1), #name-form > div:nth-child(2)
+    {
+        display: block;
     }
 
     #mail-message-form > input {
@@ -403,8 +513,8 @@
     }
 
     #copyright > p {
-        position: absolute;
+        position: absolute; 
         bottom: 0;
-        margin: 0 auto;
-    }
+        margin: 0 auto; 
+    }  */
 }

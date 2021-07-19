@@ -6,7 +6,6 @@
 }
 
 /* *****Hero***** */
-
 .hero
 {
     background-color: #0B7FA2;
@@ -36,83 +35,239 @@
 }
 
 /* *****Member Cards***** */
-.main
-{
-    position: relative;
-}
-
 .member-cards
 {
     width: 80%;
     margin: 0 auto;
     column-gap: 5rem;
     position: relative;
-    top: -150px;
-    justify-items: center;
-    /* background-color: var(--primary-bg-color); */
 }
-
-.member-cards > div
+.member-cards > article
 {
-    position: relative;
-    background-color: var(--primary-bg-color);
-    width: 100%;
     text-align: center;
-    border: 1px solid var(--primary-font-color);
-    height: 50vh;
+    border: 1px solid #000;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-font-color);
+    padding: 1rem;
+    /* position: absolute; */
+    height: 35vh;
+    top: -6rem;
 }
 
-.member-cards > div > h3
+.member-cards > article:nth-child(1),
+.member-cards > article:nth-child(2),
+.member-cards > article:nth-child(3)
 {
-    padding: 20px 0 10px 0;
+    position: absolute;
+    margin: 0 auto;
+    width: 30%;
 }
 
-.member-cards > div > p:nth-child(2)
+.member-cards > article:nth-child(1)
 {
-    font-size: 1.2rem;
+    left: 0;
 }
 
-.price
+.member-cards > article:nth-child(2)
 {
-    font-size: 5rem;
+    left: 35%;
 }
 
-.member-cards > div > button
+.member-cards > article:nth-child(3)
 {
-    width: 80%;
-    padding: 15px;
-    background-color: var(--secondary-bg-color);
-    border-style: none;
+    right: 0;
+}
+
+.member-cards > article > button
+{
+    background-color: var(--secondary-link-bg-color);
     color: var(--secondary-font-color);
-    font-size: 1.1rem;
+    border: none;
+    padding: 1rem;
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     position: absolute;
-    bottom: 20px;
-    left: 40px;
-}
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
 
-.card-description
-{
-    position: absolute;
-    top: 225px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    
 }
-
-.package-period
-{
-    position: absolute;
-    top: 300px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    font-size: 0.8rem;   
-}
-
-.renewal
+.renewal,.price
 {
     font-weight: bold;
 }
+.price
+{
+    font-size: 3rem;
+}
+.package-period
+{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-description
+{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-footer
+{
+    position: relative;
+    top: 15rem;
+}
+
+.container-footer > div
+{
+    justify-self: center;
+
+}
+
+/* Left-Panel */
+.container-footer > div:nth-child(1) > img, .container-footer > div:nth-child(1) > h2
+{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.container-footer > div:nth-child(1)
+{
+    justify-self: end;
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center-Panel */
+.container-footer > div:nth-child(2)
+{
+    padding: 0 2rem;
+    width: 80%;
+}
+
+.container-footer > div:nth-child(3)
+{
+    justify-self: start;
+    width: 80%;
+}
+
+/* *****MEDIA QUERIES***** */   
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .main-header > nav
+    {
+        display: none;
+    }
+    
+    .hero
+    {
+        position: static;
+        height: 50vh;
+    }
+
+    .hero > div
+    {
+        position: static;
+    }
+
+    .member-cards > article
+    {
+        top: 0;
+        margin-bottom: 2rem;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+    /* #name-form > div:nth-child(1)
+    {
+        margin-right: 0;
+    } */
+    
+    #copyright > p
+    {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .hero
+    {
+        height: 40vh;
+    }
+
+    .hero > div
+    {
+        position: relative;
+        top: 10%;
+        
+    }
+
+    .hero > div > h2
+    {
+        font-size: 3rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 80%;
+    }
+
+    #copyright > p
+    {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero
+    {
+        height: 30vh;
+    }
+
+    .hero > div
+    {
+        position: relative;
+        top: 12%;
+        
+    }
+
+    .hero > div > h2
+    {
+        font-size: 2rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 80%;
+    }
+}
+
+
+
+
+

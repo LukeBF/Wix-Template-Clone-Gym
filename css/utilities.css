@@ -1,4 +1,4 @@
-/* *****Variables Declaration***** */
+/* *****Color Variables***** */
 :root
 {
     --primary-bg-color: #FFFFFF;
@@ -33,29 +33,46 @@ li
     display: grid;
 }
 
-.grid-col-1
-{
-    grid-template-columns: 1fr;
-}
-
-.grid-col-2
-{
-    grid-template-columns: repeat(2,1fr);
-}
-
-.grid-col-3
-{
-    grid-template-columns: repeat(3,1fr);
-}
-
+/* Header-Navigation */
 .grid-col-3-header
 {
     grid-template-columns: 1fr 80% 10%
 }
 
-.grid-col-3-facilities, .grid-col-3-footer
+/* Home Page-Main Section */
+.grid-col-2
+{
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* Mobile */
+.grid-col-1
+{
+    grid-template-columns: 1fr;
+}
+
+/* .grid-col-2-form
+{
+    grid-template-columns: repeat(2,1fr);
+} */
+
+/* Membership Page-Cards */
+.grid-col-3
+{
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Facilities Images */
+.grid-col-3-facilities
 {
     grid-template-columns: repeat(3,1fr)
+}
+
+/* Footer Sections */
+.grid-col-3-footer
+{
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 2rem; */
 }
 
 /* *****Links***** */
@@ -63,13 +80,22 @@ li
 {
     background-color: var(--primary-link-bg-color);
     color: var(--primary-font-color);
-    padding: 20px 40px;
+    padding: 1rem 1rem;
     width: 50%;
     border-radius: 50rem;
     border: 2px solid #000;
     text-decoration: none;
     text-align: center;
 }
+
+
+#facilities-section a
+{
+    text-align: center;
+    justify-self: center;  
+    padding: 1rem 3rem;
+    margin-bottom: 40px; 
+} 
 
 .secondary-links
 {
@@ -82,15 +108,40 @@ li
     font-size: 1rem;
 }
 
+
+/* Media Queries */
+
 /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1300.00px) {
+    .grid-col-3-header
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        padding: 1rem 1rem;
+    }
+
+    .grid-col-3
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .member-cards
+    {
+        top: 0;
+        width: 80%;
+        margin-top: 3rem;
+    }
+}
+/* ************************************************* */
 @media (max-width: 1199.98px) {
     #facilities-images,
     .grid-col-3-facilities, 
     .grid-col-3-footer,
     .grid-col-3-header
-    /* .grid-col-2 */
     {
-        /* convert image to full width and stack one on top the other */
         grid-template-columns: 1fr;
     }
 
@@ -99,16 +150,20 @@ li
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .primary-links
+    .grid-col-3
     {
-        padding: 10px 20px;
-        text-align: center;
-        justify-self: center;  
-        padding: 10px;
+        grid-template-columns: 1fr;
     }
 
-    
+    .primary-links
+    {
+        text-align: center;
+        justify-self: center;  
+        padding: 1rem 1rem;   
+    } 
 }
+
+/* ************************************************* */
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -118,20 +173,24 @@ li
     .grid-col-3-header,
     .grid-col-2
     {
-        /* convert image to full width and stack one on top the other */
         grid-template-columns: 1fr;
     }
 
     .primary-links
     {
-        padding: 0 20px;
         text-align: center;
         justify-self: center;  
-        padding: 15px;
-        margin-bottom: 20px;
-        
+        padding: 1rem 1rem;
+        margin-bottom: 40px; 
     } 
+
+    #experience-section p
+    {
+        padding: 1rem 3rem;
+    }
 }
+
+/* *************************************************** */
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -141,22 +200,18 @@ li
     .grid-col-3-header,
     .grid-col-2
     {
-        /* convert image to full width and stack one on top the other */
         grid-template-columns: 1fr;
     }
 
     .primary-links
     {
-        padding: 10px 20px;
+        padding: 1rem 1rem;
         text-align: center;
         justify-self: center;  
-        padding: 10px;
-        margin-bottom: 20px;
     } 
 }
 
-/* ------------------------------------------------------------------- */
-
+/* ************************************************** */
 @media (max-width: 575.98px) {
     #facilities-images,
     .grid-col-3-facilities, 
@@ -164,7 +219,6 @@ li
     .grid-col-3-header,
     .grid-col-2
     {
-        /* convert image to full width and stack one on top the other */
         grid-template-columns: 1fr;
     }
 
@@ -174,6 +228,5 @@ li
         text-align: center;
         justify-self: center;  
         padding: 10px;
-        margin-bottom: 20px;
     }
 }
