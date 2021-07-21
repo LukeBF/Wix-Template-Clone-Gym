@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.main-header
+{
+    height: 10vh;
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo
+{
+    padding: 20px;
+}
+
+.logo > h2
+{
+    font-size: 1.6rem;
+}
+
+.logo > img, 
+.logo > h2,
+.main-header > nav div,
+.main-header > nav li
+{
+    display: inline-block;
+}
+
+/* NAVIGATION */
+.main-header > nav:nth-child(2)
+{
+    justify-self: center;
+    align-self: center;
+}
+
+.main-header > nav:nth-child(2) span > i
+{
+    font-size: 1.5rem;
+    position: relative;
+    top: 3px
+}
+
+.main-header > nav:nth-child(2) span, .main-header > nav:nth-child(2) span > a
+{
+    color: #AA2A5D;
+    position: relative;
+    margin-left: 5px;
+} 
+
+.main-header > nav li a
+{
+    padding: 50px 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-header > div:nth-child(3) 
+{
+    background-color: #AA2A5D;
+    height: 10vh;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main-header > div:nth-child(3) > a
+{
+    padding: 1rem;
+    color: #ffffff;
+}
+
+/* FOOTER */
+.container-footer-home
+{
+    padding-top: 2rem ;
+    margin-top: 2rem;
+}
+/* Left-Panel */
+.container-footer-home > div:nth-child(1) > img, .container-footer > div:nth-child(1) > h2
+{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.container-footer-home > div:nth-child(1)
+{
+    justify-self: end;
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright > p
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Center-Panel */
+.container-footer-home > div:nth-child(2) > p
+{
+    width: 70%;
+}
+.name-form
+{
+    column-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.name-form > div:nth-child(1) > input,
+.name-form > div:nth-child(2) > input,
+.mail-message-form > div:nth-child(1) > input,
+.mail-message-form > div:nth-child(2) > textarea
+{
+    width: 100%;
+}
+
+.mail-message-form
+{
+    margin-top: 1rem;
+}
+
+.mail-message-form > div:nth-child(2)
+{
+    margin-top: 1rem;
+}
+
+/* Right-Panel */
+.container-footer-home > div
+{
+    justify-self: center;
+}
+
+.nav-footer
+{
+    position: relative;
+    width: 30%;
+}
+
+.nav-footer li
+{
+    line-height: 2rem;
+}
+
+.nav-footer li > a
+{
+    color: var(--primary-font-color);
+    text-decoration: none;
+}
+
+#safety-policies 
+{
+    color: var(--primary-font-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+

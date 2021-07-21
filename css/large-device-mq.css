@@ -1,5 +1,5 @@
-/* Large devices (desktops, less than 1300px) */
-@media (max-width: 1300.98px) {
+/* Large devices (desktops, less than 1500px) */
+@media (max-width: 1500px) {
     /* *****Logo***** */
     .logo{
         text-align: center;
@@ -17,7 +17,6 @@
     .main-header > nav{
         width: 100%;
         text-align: center;
-        /* display: none; */
     }
 
     .main-header > nav:nth-child(2) span > i
@@ -78,12 +77,16 @@
     }    
 
     /* *****Main***** */
-
     .container
     {
         /* position items in experience section full width */
         width: 100vw;
         position: static;
+    }
+
+    .container-footer-home > div:nth-child(2)
+    {
+        width: 100%;
     }
 
     .container div:nth-child(4) > img {
@@ -115,7 +118,6 @@
     }
 
     /* *****Facilities***** */
-
     #facilities-section {
         padding-bottom: 50px;
     }
@@ -140,7 +142,7 @@
     }
 
     /* *****Footer***** */
-    #container-footer {
+    /* #container-footer {
         margin-top: 30px;
         padding-bottom: 100px;
         text-align: center;
@@ -160,24 +162,24 @@
         padding: 0;
     }
 
-    #name-form {
+    .name-form {
         height: auto
     }
 
-    #mail-message-form {
+    .mail-message-form {
         margin-top: 0;
     }
 
-    #mail-message-form > input {
+    .mail-message-form > input {
         width: 100%;
         margin-bottom: 0;
     }
 
-    #nav-footer > h3, #nav-footer > nav {
+    .nav-footer > h3, #nav-footer > nav {
         margin-left: 0;
     }
 
-    #nav-footer nav{
+    .nav-footer nav{
         margin-bottom: 50px;
     }
 
@@ -191,29 +193,27 @@
         position: absolute;
         bottom: 0;
         margin: 0 auto;
-    } 
+    }  */
 }
 
 /* ******************************************************************** */
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    /* *****Logo***** */
-    .logo{
-        text-align: center;
-        width: auto;
-        background-color: #ffffff;
-    }
-    /* *****Main Header***** */
     .main-header
     {
         height: 0;
     }
 
-    .main-header > nav{
-        width: 100%;
-        text-align: center;
+    .main-header > nav
+    {
         display: none;
+    }
+
+    .logo{
+        text-align: center;
+        width: auto;
+        background-color: #ffffff;
     }
 
     .main-header > nav:nth-child(2) span > i
@@ -281,6 +281,23 @@
         text-decoration: none;
     }
 
+    .hero
+    {
+        position: static;
+        height: 50vh;
+    }
+
+    .hero > div
+    {
+        position: static;
+    }
+
+    .member-cards > article
+    {
+        top: 0;
+        margin-bottom: 2rem;
+    }
+
     /* *****Main Home Page Content***** */
     .container
     {
@@ -316,7 +333,7 @@
         margin-top: 15px;
     }
 
-    /* *****Facilities***** */
+    /* FACILITIES */
 
     #facilities-section {
         padding-bottom: 50px;
@@ -345,18 +362,28 @@
         padding: 40px;
     }
 
-    /* *****Footer***** */
-    .container-footer
+    /* FOOTER */
+    .container-footer-home
     {
-        top: 2rem;
+        position: relative;
+    }
+    .container-footer-home > div:nth-child(2)
+    {
+        width: 50%;
     }
 
-    .container-footer > div:nth-child(1)
+    .container-footer-home > div:nth-child(1)
     {
         position: static;
         width: 50%;
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-footer
+    {
+        top: 2rem;
     }
 
     .container-footer > div:nth-child(1),
@@ -397,10 +424,11 @@
         width: 100%;
     }
 
-    .container-footer > div:nth-child(2) > h3,
-    .container-footer > div:nth-child(2) > p
+    .container-footer-home > div:nth-child(2) > h3,
+    .container-footer-home > div:nth-child(2) > p
     {
         text-align: center;
+        width: 100%;
     }
 
     #copyright > p
@@ -416,13 +444,50 @@
     #safety-policies
     {
         position: relative;
-        bottom: 2rem;
+        bottom: 1rem;
         font-size: 1.2rem;
         font-weight: bold;
         text-decoration: underline;
+        
+    }
+
+    .nav-footer
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .nav-footer > nav
+    {
+        margin-bottom: 2rem;
+    }
+
+    .nav-footer
+    {
+        margin-bottom: 2rem;
     }
 
 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /* Membership-Page */
 
     /* Cards */
