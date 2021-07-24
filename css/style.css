@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* *****HOME PAGE***** */
+
 /* HEADER */
 .main-header
 {
@@ -74,14 +76,162 @@
     color: #ffffff;
 }
 
+/* *****HERO***** */
+#welcome-hero
+{
+    grid-template-columns: 1fr;
+    height: 120vh;
+    justify-items: center;
+    background-image: url(../img/banner-image.jpg);
+    background-attachment: fixed;
+    background-repeat: none;
+    /* background-position:center center; */
+    background-size: cover;
+}
+
+#welcome-hero > div
+{     
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+    position: relative;
+    top: -10vh;
+}
+
+#welcome-hero > div > h1
+{
+    font-size: 6rem;
+}
+
+#welcome-hero > div > p
+{
+    margin-top: -20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#welcome-hero > div > a
+{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* *****MAIN***** */
+.container
+{
+    background-color: var(--primary-bg-color);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20vh;
+}
+
+.container div:nth-child(1) > img, .container div:nth-child(4) > img
+{
+    width: 100%;
+    display: block;    
+} 
+
+/* *****OVERLAPPING GRID WITH HERO***** */
+.experience-section-text
+{
+    margin: 0 -80px;
+}
+
+.experience-section-text > h2
+{
+    margin-bottom: 20px;
+}
+
+input
+{
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    margin-top: 12px;
+}
+
+input:hover
+{
+    border-bottom: 3px solid #000000;
+}
+
+#mail-message-form > textarea:hover
+{
+    border-bottom: 3px solid #000000;
+}
+
+
+/* *****FACILITIES***** */
+#facilities-section
+{
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#facilities-section > div:nth-child(1)
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#facilities-section > div:nth-child(1) > p
+{
+    padding: 20px 110px 50px 110px; 
+}
+
+#facilities-section > div:nth-child(1) > h2
+{
+    padding-top: 100px;
+    font-size: 2rem;
+}
+
+#facilities-images
+{
+    column-gap: 20px;
+    height: 60vh;
+    margin-bottom: 70px;
+}
+
+/*fit images into 3 column grid*/
+#facilities-images img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#experience-section div:nth-child(2), #experience-section div:nth-child(3)
+{
+    align-self: center;
+    padding: 0 185px;
+}
+
+#experience-section p
+{
+    margin-bottom: 40px;
+}
+
+#facilities-section a
+{
+    border: none;
+}
+
 /* FOOTER */
 .container-footer-home
 {
     padding-top: 2rem ;
     margin-top: 2rem;
+    position: relative;
 }
 /* Left-Panel */
-.container-footer-home > div:nth-child(1) > img, .container-footer > div:nth-child(1) > h2
+.container-footer-home > div:nth-child(1) > img, .container-footer-home > div:nth-child(1) > h2
 {
     display: inline-block;
     font-size: 2rem;
@@ -107,6 +257,11 @@
 }
 
 /* Center-Panel */
+.container-footer-home > div:nth-child(2)
+{
+    padding: 0 7rem;
+}
+
 .container-footer-home > div:nth-child(2) > p
 {
     width: 70%;
@@ -166,4 +321,148 @@
     left: 0;
 }
 
+/* *****MEMBERSHIP PAGE***** */
+.hero
+{
+    background-color: #0B7FA2;
+    height: 70vh;
+    color: var(--secondary-font-color);
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
 
+.hero
+{
+    position: relative;
+}
+
+.hero > div
+{
+    position: relative;
+    top: -15%;
+}
+
+.hero > div, .hero > div > div
+{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero > div > h2
+{
+    font-size: 4rem;
+}
+
+/* Cards Container */
+.member-cards
+{
+    width: 80%;
+}
+
+/* Card Items */
+.member-cards > article
+{
+    background-color: var(--primary-bg-color);
+    border: 1px solid var(--primary-font-color);
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    top: 45%;
+    height: 35vh;
+}
+
+.member-cards > article:nth-child(1),
+.member-cards > article:nth-child(2),
+.member-cards > article:nth-child(3)
+{
+    width: 25%;
+}
+
+.member-cards > article:nth-child(1)
+{
+    left: 5rem;
+}
+
+.member-cards > article:nth-child(2)
+{
+    left: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-cards > article:nth-child(3)
+{
+    right: 5rem;
+}
+
+.member-cards > article > h3
+{
+    font-size: 1.2rem;
+}
+
+.dollar-symbol, 
+.dollar-value,
+.card-description,
+.package-period,
+.member-cards > article > button,
+.renewal
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dollar-value
+{
+    font-size: 3rem;
+    left: 0.5rem;
+}
+
+.dollar-symbol
+{
+    left: -4rem;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-description
+{
+    top: 9rem;
+}
+
+.package-period
+{
+    top:13rem;
+    font-size: 0.8rem;
+}
+
+
+.member-cards > article > button
+{
+    bottom: 0;
+    background-color: var(--secondary-link-bg-color);
+    color: var(--secondary-font-color);
+    border: none;
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.renewal
+{
+    top: 7rem;
+    font-weight: bold;
+}
+
+.container-footer > div
+{
+    position: relative;
+    top: 40%;
+}

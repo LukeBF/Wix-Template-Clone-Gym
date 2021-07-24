@@ -1,0 +1,424 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+    /* HOME PAGE */
+
+    /* HEADER */
+    .main-header
+    {
+        height: 0;
+    }
+
+    .main-header > nav
+    {
+        display: none;
+    }
+
+    .logo{
+        text-align: center;
+        width: auto;
+        background-color: #ffffff;
+    }
+
+    .main-header > nav:nth-child(2) span > i
+    {
+        display: none;
+    }
+
+    .main-header > nav:nth-child(2) span, .main-header > nav:nth-child(2) span > a
+    {
+       display: none;
+    } 
+
+    .main-header > div:nth-child(3) 
+    {
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .main-header > div:nth-child(3) > a
+    {
+        padding: 15px;
+        color: #ffffff;
+    }
+
+    /* HERO */
+    #welcome-hero
+    {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    #welcome-hero > div{
+        height: 20vh;
+        width: 100vw;
+        /* text-align: center; */
+    }
+
+    #welcome-hero > div > h1
+    {
+        font-size: 5rem;
+    }
+
+    #welcome-hero > div > p
+    {
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    #welcome-hero > div > a
+    {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px 40px;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    .hero
+    {
+        position: static;
+        height: 50vh;
+    }
+
+    .hero > div
+    {
+        position: static;
+    }
+
+    .member-cards > article
+    {
+        top: 0;
+        margin-bottom: 2rem;
+    }
+
+    /* *****Main Home Page Content***** */
+    .container
+    {
+        width: 100vw;
+        position: static;
+        row-gap: 2rem;
+    }
+
+    .container div:nth-child(4) > img {
+        width: 100%;
+        display: block;
+        margin-top: 0px;
+    }
+
+    #experience-section > div:nth-child(2),
+    #experience-section > div:nth-child(3)
+    {
+        width: 70%;
+       
+        justify-self: center;
+    }
+
+    #experience-section-text
+    {
+        margin-bottom: 2rem;
+    }
+
+    #experience-section-text a
+    {
+        padding: 10px; 
+    }
+
+    #experience-section p
+    {
+        margin-bottom: 20px;
+    }
+
+    .experience-section-text > h2 
+    {
+        margin-bottom: 20px;
+    }
+
+    /* FACILITIES */
+
+    #facilities-section
+    {
+        padding-bottom: 50px;
+    }
+
+    #facilities-section > div:nth-child(1) 
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #facilities-section > div:nth-child(1) > h2 
+    {
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+
+    #facilities-images
+    {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #facilities-images > div:nth-child(2)
+    {
+        display: none;
+    }
+
+    #facilities-images > div:nth-child(1), #facilities-images > div:nth-child(3)
+    {
+        padding: 40px;
+    }
+
+    /* FOOTER */
+    .container-footer-home
+    {
+        position: relative;
+    }
+
+    .container-footer-home > div
+    {
+        top: 0;
+    }
+
+    .container-footer-home > div:nth-child(2)
+    {
+        width: 50%;
+    }
+
+    .container-footer-home > div:nth-child(1)
+    {
+        position: static;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-footer
+    {
+        top: 2rem;
+    }
+
+    .container-footer > div:nth-child(1),
+    .container-footer > div:nth-child(3),
+    .container-footer > div:nth-child(2) > h3,
+    .container-footer > div:nth-child(2) > p
+    {
+        line-height: 2rem;
+    }
+
+
+    .container-footer > div:nth-child(2)
+    {
+        width: 40%;
+        margin-top: 2rem;
+    }
+
+    .container-footer > div:nth-child(3)
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #name-form > div:nth-child(1), #name-form > div:nth-child(2)
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .container-footer-home > div:nth-child(2) > h3,
+    .container-footer-home > div:nth-child(2) > p
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    #copyright > p
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #safety-policies
+    {
+        position: relative;
+        bottom: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .nav-footer
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .nav-footer > nav
+    {
+        margin-bottom: 2rem;
+    }
+
+    .nav-footer
+    {
+        margin-bottom: 2rem;
+    }
+
+    /* ******************************************************* */
+    
+    /* Membership-Page */
+
+
+    /* Cards - code to be refactored */
+    .member-cards
+    {
+        margin: 2rem auto;
+    }
+
+    .member-cards > article
+    {
+        position: static;
+    }
+
+    .member-cards > article:nth-child(2)
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .member-cards > article:nth-child(1), 
+    .member-cards > article:nth-child(2), 
+    .member-cards > article:nth-child(3)
+    {
+        width: 80%;
+        justify-self: center;
+    }
+
+    .member-cards > article:nth-child(1) > div:nth-child(3)
+    {
+        top: 45rem;
+    } 
+    .member-cards > article:nth-child(1) > div:nth-child(4)
+    {
+        top: 48rem;
+    } 
+
+    .member-cards > article:nth-child(2) > p:nth-child(3)
+    {
+       top: 67rem;
+    }
+
+    .member-cards > article:nth-child(2) > div:nth-child(4)
+    {
+        top: 70rem;
+    }
+
+    .member-cards > article:nth-child(2) > div:nth-child(5)
+    {
+        top: 73rem;
+    }
+
+    .member-cards > article:nth-child(2) > div:nth-child(6)
+    {
+        bottom: 60rem;
+    }
+    .member-cards > article:nth-child(3) > p:nth-child(3)
+    {
+        top: 90rem;
+    }
+
+    .member-cards > article:nth-child(3) > div:nth-child(4)
+    {
+        top: 93rem;
+    }
+
+    .renewal,
+    .package-period
+    {
+        top: 0;
+    }
+
+    .member-cards > article > button
+    {
+        position: relative;
+        bottom: -14rem;
+    }
+
+    /* FOOTER */
+    .container-footer > div
+    {
+        top: 40%;
+    }
+
+    /* Left-Panel */
+    .container-footer > div:nth-child(1) > img, 
+    .container-footer > div:nth-child(1) > h2
+    {
+        display: inline-block;
+        font-size: 2rem;
+    }
+    .container-footer > div:nth-child(1)
+    {
+        justify-self: end;
+        position: relative;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    /* Center-Panel */
+    .container-footer > div:nth-child(2)
+    {
+        padding: 0 3rem;
+    }
+
+    .container-footer > div:nth-child(2) > p
+    {
+        width: 70%;
+    }
+    .name-form
+    {
+        column-gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .name-form > div:nth-child(1) > input,
+    .name-form > div:nth-child(2) > input,
+    .mail-message-form > div:nth-child(1) > input,
+    .mail-message-form > div:nth-child(2) > textarea
+    {
+        width: 100%;
+    }
+
+    .mail-message-form
+    {
+        margin-top: 1rem;
+    }
+
+    .mail-message-form > div:nth-child(2)
+    {
+        margin-top: 1rem;
+    }
+
+    /* Right-Panel */
+    .container-footer > div
+    {
+        justify-self: center;
+    }
+
+    .nav-footer
+    {
+        position: relative;
+        width: 30%;
+    }
+    
+}

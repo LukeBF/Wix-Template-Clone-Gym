@@ -15,6 +15,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 a
@@ -51,10 +52,6 @@ li
     grid-template-columns: 1fr;
 }
 
-/* .grid-col-2-form
-{
-    grid-template-columns: repeat(2,1fr);
-} */
 
 /* Membership Page-Cards */
 .grid-col-3
@@ -72,7 +69,7 @@ li
 .grid-col-3-footer
 {
     grid-template-columns: repeat(3, 1fr);
-    /* column-gap: 2rem; */
+    
 }
 
 /* *****Links***** */
@@ -102,6 +99,7 @@ li
     background-color: var(--secondary-link-bg-color);
     color: var(--secondary-font-color);
     padding: 20px 40px;
+    margin-top: 1rem;
     border-radius: 50px;
     border: 0;
     width: 100%;
@@ -110,6 +108,13 @@ li
 
 
 /* Media Queries */
+
+/* Large devices (desktops, less than 1500px) */
+@media (max-width: 1500px) {
+
+}
+
+/* ************************************************** */
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1300.00px) {
@@ -122,32 +127,17 @@ li
     {
         padding: 1rem 1rem;
     }
-
-    .grid-col-3
-    {
-        grid-template-columns: 1fr;
-    }
-
-    .member-cards
-    {
-        top: 0;
-        width: 80%;
-        margin-top: 3rem;
-    }
 }
 /* ************************************************* */
 @media (max-width: 1199.98px) {
     #facilities-images,
     .grid-col-3-facilities, 
     .grid-col-3-footer,
-    .grid-col-3-header
+    .grid-col-3-header,
+    .grid-col-2,
+    .grid-col-3
     {
         grid-template-columns: 1fr;
-    }
-
-    .grid-col-2
-    {
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .grid-col-3

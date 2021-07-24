@@ -1,0 +1,23 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hero
+    {
+        height: 30vh;
+    }
+
+    .hero > div
+    {
+        position: relative;
+        top: 12%;
+    }
+
+    .hero > div > h2
+    {
+        font-size: 2rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 80%;
+    }
+}

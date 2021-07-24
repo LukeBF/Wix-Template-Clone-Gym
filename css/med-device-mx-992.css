@@ -1,0 +1,11 @@
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+        
+    #copyright > p
+    {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
