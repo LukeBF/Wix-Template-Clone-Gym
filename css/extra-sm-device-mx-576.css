@@ -5,10 +5,9 @@
         height: 30vh;
     }
 
-    .hero > div
+    #welcome-hero > div > h1
     {
-        position: relative;
-        top: 12%;
+        font-size: 3rem;
     }
 
     .hero > div > h2
@@ -20,4 +19,64 @@
     {
         width: 80%;
     }
+
+    #experience-section div:nth-child(2), 
+    #experience-section div:nth-child(3)
+    {
+        align-self: center;
+        padding: 0;
+    }
+
+    #experience-section p
+    {
+        text-align: center;
+    }
+
+    #facilities-section > div:nth-child(1) > p
+    {
+        padding: 0;
+    }
+
+    .container-footer
+    {
+        width: 100%;
+        top: 0;
+        row-gap: 2rem;
+    }
+    
+    .container-footer > div
+    {
+        top: 20%;
+    }
+
+    .container-footer > div:nth-child(1)
+    {
+        justify-self: center;
+        text-align: center;
+        /* position: relative; */
+    }
+
+    .container-footer > div:nth-child(2)
+    {
+        padding: 0;
+        width: 80%;    
+    }
+
+    .container-footer > div:nth-child(2) > p
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #copyright > p 
+    {
+        bottom: -75rem;
+    }
+
+    .name-form
+    {
+        row-gap: 1rem;
+    }
+
+    
 }
