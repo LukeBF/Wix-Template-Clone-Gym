@@ -8,7 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
-        <!-- <link rel="stylesheet" href="./css/style-home.css"> -->
         <link rel="stylesheet" href="./css/utilities.css">
         <link rel="stylesheet" href="./css/lg-device-mx-1500.css">
         <link rel="stylesheet" href="./css/lg-device-mx-1200.css">
@@ -21,108 +20,109 @@
     </head>
     <body>
         <!--Navigation and sign in-->
-        <header class="main-header grid grid-col-3-header">
-            <div class="logo">
-                <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
-                <h2>ONYX</h2>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">FACILITIES</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="./html/membership.html">MEMBERSHIP</a></li>
-                    <div>
+        <div class="page-container">
+            <main class="main">
+                <header class="main-header grid grid-col-3-header">
+                    <div class="logo">
+                        <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
+                        <h2>ONYX</h2>
+                    </div>
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">FACILITIES</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="./html/membership.html">MEMBERSHIP</a></li>
+                            <div>
+                                <span><i class="fas fa-user-circle"></i></span>
+                                <span><a href="#">Log In</a></span>               
+                            </div>
+                        </ul>
+                    </nav>
+                    <!-- <div>
                         <span><i class="fas fa-user-circle"></i></span>
                         <span><a href="#">Log In</a></span>               
-                    </div>
-                </ul>
-            </nav>
-            <!-- <div>
-                <span><i class="fas fa-user-circle"></i></span>
-                <span><a href="#">Log In</a></span>               
-            </div> -->
-
-            <div class="grid">
-                <a href="#">Join Now</a>
-            </div>
-        </header>
-
-        <!--Hero-->
-        <section id="welcome-hero" class="grid">
-            <div>
-                <h1>Welcome to Onyx</h1>
-                <p>
-                    The fitness facility for all of your needs
-                </p>
-                <a href="#">Join Now</a>
-            </div>
-        </section>
-
-        <!--Main-->
-        <main>
-            <section id="experience-section" class="container grid grid-col-2">
-                <div>
-                    <img src="./img/runner.jpg" alt="a man sprinting">
-                </div>
-                
-                <div>
-                    <div class="experience-section-text grid">
-                        <h2>The Onyx Experience</h2>
-                        <p>
-                            I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
-                        </p>
-                        <a href="#" class="primary-links">Learn More</a>
-                    </div>
-
-                </div>
-
-                <div>
-                    <div class="experience-section-text grid">
-                        <h2>Fitness Is For Everyone</h2>
-                        <p>
-                            I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
-                        </p>
-                        <a href="#" class="primary-links">Reserve a Spot</a>
-                    </div>
-
-                </div>
-                
-                <div>
-                    <img src="./img/fitness-group.jpg" alt="three women in exercise wear">
-                </div>
-            </section>
+                    </div> -->
         
-            <!--Facilities-->
-            <section id="facilities-section">
-                <div>
-                    <h2>Top Notch Facilities</h2>
-                    <p>
-                        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </p>
-                </div>
-                
-                <div id="facilities-images" class="grid grid-col-3-facilities">
+                    <div class="grid">
+                        <a href="#">Join Now</a>
+                    </div>
+                </header>
+
+                <!--Hero-->
+                <section id="welcome-hero" class="grid">
                     <div>
-                        <img src="./img/facilities-pool.jpg" alt="indoor swimming pool">
+                        <h1>Welcome to Onyx</h1>
+                        <p>
+                            The fitness facility for all of your needs
+                        </p>
+                        <a href="#">Join Now</a>
+                    </div>
+                </section>
+
+                <section id="experience-section" class="container grid grid-col-2">
+                    <div>
+                        <img src="./img/runner.jpg" alt="a man sprinting">
                     </div>
                     
                     <div>
-                        <img src="./img/locker-room.jpg" alt="a bag and shoes in a locker room">
+                        <div class="experience-section-text grid">
+                            <h2>The Onyx Experience</h2>
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                            <a href="#" class="primary-links">Learn More</a>
+                        </div>
+    
+                    </div>
+    
+                    <div>
+                        <div class="experience-section-text grid">
+                            <h2>Fitness Is For Everyone</h2>
+                            <p>
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                            </p>
+                            <a href="#" class="primary-links">Reserve a Spot</a>
+                        </div>
+    
                     </div>
                     
                     <div>
-                        <img src="./img/facilities-gym.jpg" alt="exercise equipment">
+                        <img src="./img/fitness-group.jpg" alt="three women in exercise wear">
                     </div>
-                </div>
-                
-                <a href="#" class="primary-links">View All</a>
-            </section>
-        </main>
-        
+                </section>
+
+                <!--Facilities-->
+                <section id="facilities-section">
+                    <div>
+                        <h2>Top Notch Facilities</h2>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                        </p>
+                    </div>
+                    
+                    <div id="facilities-images" class="grid grid-col-3-facilities">
+                        <div>
+                            <img src="./img/facilities-pool.jpg" alt="indoor swimming pool">
+                        </div>
+                        
+                        <div>
+                            <img src="./img/locker-room.jpg" alt="a bag and shoes in a locker room">
+                        </div>
+                        
+                        <div>
+                            <img src="./img/facilities-gym.jpg" alt="exercise equipment">
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="primary-links">View All</a>
+                </section>
+            </main>
+        </div>
+
         <!--Footer -->
-        <footer class="container-footer-home grid grid-col-3-footer">
+        <footer class="container-footer grid grid-col-3-footer">
             <!-- Footer-Left-Panel -->
             <div>
                 <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">

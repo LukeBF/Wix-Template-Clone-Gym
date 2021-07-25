@@ -15,7 +15,23 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    /* position: relative; */
+}
+
+.page-container
+{
+    min-height: 100%;
+}
+
+.main
+{
+    overflow: auto;
+    
+}
+
+html, body
+{
+    height: 100%
 }
 
 a
@@ -134,12 +150,7 @@ li
     .grid-col-3-facilities, 
     .grid-col-3-footer,
     .grid-col-3-header,
-    .grid-col-2,
-    .grid-col-3
-    {
-        grid-template-columns: 1fr;
-    }
-
+    .grid-col-2
     .grid-col-3
     {
         grid-template-columns: 1fr;

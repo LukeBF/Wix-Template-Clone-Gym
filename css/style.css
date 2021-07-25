@@ -224,47 +224,63 @@ input:hover
 }
 
 /* FOOTER */
-.container-footer-home
+.container-footer
 {
-    padding-top: 2rem ;
-    margin-top: 2rem;
+    /* padding-top: 2rem ; */
+    /* margin-top: 2rem; */
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    top: 5rem;
     position: relative;
+    column-gap: 2rem;
 }
+
 /* Left-Panel */
-.container-footer-home > div:nth-child(1) > img, .container-footer-home > div:nth-child(1) > h2
+.container-footer > div:nth-child(1) > img, 
+.container-footer > div:nth-child(1) > h2
 {
     display: inline-block;
     font-size: 2rem;
 }
 
-.container-footer-home > div:nth-child(1)
+.container-footer > div:nth-child(1)
 {
-    justify-self: end;
+    justify-self: center;
     position: relative;
-    width: 60%;
+    /* width: 60%; */
     justify-content: center;
     align-items: center;
 }
 
-#copyright > p
+#copyright
 {
-    position: absolute;
+    width: 100%;
+    
+}
+
+/* #copyright > p
+{
+   
     bottom: 0;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* Center-Panel */
-.container-footer-home > div:nth-child(2)
+.container-footer > div:nth-child(2)
 {
-    padding: 0 7rem;
+    padding: 0 5rem;
 }
 
-.container-footer-home > div:nth-child(2) > p
+.container-footer > div:nth-child(2) > p
 {
-    width: 70%;
+    width: 80%;
 }
 .name-form
 {
@@ -291,7 +307,7 @@ input:hover
 }
 
 /* Right-Panel */
-.container-footer-home > div
+.container-footer > div
 {
     justify-self: center;
 }
@@ -325,17 +341,14 @@ input:hover
 .hero
 {
     background-color: #0B7FA2;
-    height: 70vh;
+    height: 75vh;
     color: var(--secondary-font-color);
     justify-items: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
-.hero
-{
-    position: relative;
-}
 
 .hero > div
 {
@@ -359,6 +372,14 @@ input:hover
 .member-cards
 {
     width: 80%;
+    position: absolute;
+    top: 65vh;
+    column-gap: 3rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* Card Items */
@@ -368,35 +389,10 @@ input:hover
     border: 1px solid var(--primary-font-color);
     text-align: center;
     padding: 1rem;
-    position: absolute;
-    top: 45%;
+    position: relative;
+    /* top: 45%; */
     height: 35vh;
-}
-
-.member-cards > article:nth-child(1),
-.member-cards > article:nth-child(2),
-.member-cards > article:nth-child(3)
-{
-    width: 25%;
-}
-
-.member-cards > article:nth-child(1)
-{
-    left: 5rem;
-}
-
-.member-cards > article:nth-child(2)
-{
-    left: 35%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.member-cards > article:nth-child(3)
-{
-    right: 5rem;
+    
 }
 
 .member-cards > article > h3
@@ -427,9 +423,6 @@ input:hover
 .dollar-symbol
 {
     left: -4rem;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card-description
@@ -441,8 +434,13 @@ input:hover
 {
     top:13rem;
     font-size: 0.8rem;
-}
+} 
 
+.renewal
+{
+    top: 7rem;
+    font-weight: bold;
+}
 
 .member-cards > article > button
 {
@@ -455,14 +453,3 @@ input:hover
     margin-bottom: 1rem;
 }
 
-.renewal
-{
-    top: 7rem;
-    font-weight: bold;
-}
-
-.container-footer > div
-{
-    position: relative;
-    top: 40%;
-}

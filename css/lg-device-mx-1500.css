@@ -118,23 +118,29 @@
         padding: 40px;
     }
 
-    .container-footer-home > div:nth-child(2)
+    .container-footer > div:nth-child(2)
     {
-        padding: 0 2rem;
+        padding: 0;
     }
     
-    .container-footer-home > div:nth-child(2) > p
+    .container-footer > div:nth-child(2) > p
     {
         width: 100%;
     }
 
     /* FOOTER */
-    .container-footer-home > div
+    .container-footer > div
     {
         top: 0;
     }
 
-    .container-footer-home > div:nth-child(2)
+    .container-footer > div:nth-child(1)
+    {
+        justify-self: start;
+        width: 60%;
+    }
+
+    .container-footer > div:nth-child(2)
     {
         width: 100%;
     }
@@ -164,13 +170,13 @@
     }
 
      /* FOOTER */
-    .container-footer > div
+    /* .container-footer > div
     {
         top: 40%;
-    }
+    } */
 
     /* Left-Panel */
-    .container-footer > div:nth-child(1) > img, 
+    /* .container-footer > div:nth-child(1) > img, 
     .container-footer > div:nth-child(1) > h2
     {
         display: inline-block;
@@ -183,10 +189,10 @@
         width: 60%;
         justify-content: center;
         align-items: center;
-    }  
+    }   */
 
     /* Center-Panel */
-    .container-footer > div:nth-child(2)
+    /* .container-footer > div:nth-child(2)
     {
         padding: 0 3rem;
     }
@@ -217,10 +223,10 @@
     .mail-message-form > div:nth-child(2)
     {
         margin-top: 1rem;
-    }
+    } */
 
     /* Right-Panel */
-    .container-footer > div
+    /* .container-footer > div
     {
         justify-self: center;
     }
@@ -229,7 +235,7 @@
     {
         position: relative;
         width: 30%;
-    }
+    } */
 }
 
 
