@@ -41,49 +41,71 @@
         width: 100%;
     }
 
-    .container-footer
+    #facilities-images > div:nth-child(2)
     {
-        width: 100%;
-        top: 0;
-        row-gap: 2rem;
+        display: none;
     }
 
-    .container-footer > div:nth-child(2) > h3
+    /* Footer */
+    #copyright > p
     {
-        text-align: center;
-    }
-    
-    .container-footer > div
-    {
-        top: 20%;
+        position: absolute;
+        bottom: -65rem;
     }
 
     .container-footer > div:nth-child(1)
     {
         justify-self: center;
         text-align: center;
-        /* position: relative; */
     }
 
     .container-footer > div:nth-child(2)
     {
-        padding: 0;
-        width: 60%;    
-    }
-
-    .container-footer > div:nth-child(2) > p
-    {
-        width: 100%;
+        width: 80%;
+        margin-top: 2rem;
         text-align: center;
-    }
-
-    #copyright > p 
-    {
-        bottom: -75rem;
     }
 
     .name-form
     {
         row-gap: 1rem;
+    }
+
+    #safety-policies
+    {
+        bottom: -5rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-footer
+    {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    /* Utilities */
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header,
+    .grid-col-2
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        text-align: center;
+        justify-self: center;  
+        padding: 1rem 1rem;
+        margin-bottom: 40px; 
+    } 
+
+    #experience-section p
+    {
+        padding: 1rem 3rem;
     }
 }

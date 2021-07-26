@@ -1,5 +1,16 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    
+    .main-header > nav
+    {
+        display: none;
+    }
+    
+    #welcome-hero > div > h1
+    {
+        font-size: 3rem;
+    }
+
     .hero
     {
         height: 30vh;
@@ -19,5 +30,72 @@
     .hero > div, .hero > div > div
     {
         width: 80%;
+    }
+
+    /* Main */
+    #experience-section div:nth-child(2), 
+    #experience-section div:nth-child(3)
+    {
+        padding: 0;
+    }
+
+    .experience-section-text
+    {
+        margin: 0;
+    }
+
+    .experience-section-text > p
+    {
+        text-align: center;
+    }
+
+    /* Facilities */
+
+    #facilities-section > div:nth-child(1) > p
+    {
+        padding: 0;
+    }
+
+    #facilities-images > div:nth-child(2)
+    {
+        display: none;
+    }
+
+    #copyright > p
+    {
+        position: absolute;
+    }
+
+    .container-footer > div:nth-child(2)
+    {
+        margin-top: 2rem;
+    }
+
+    #safety-policies
+    {
+        bottom: -5rem;
+    }
+
+    .nav-footer
+    {
+        text-align: center;
+    }
+
+    /* Utilities */
+    #facilities-images,
+    .grid-col-3-facilities, 
+    .grid-col-3-footer,
+    .grid-col-3-header,
+    .grid-col-2
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .primary-links
+    {
+        padding: 0 20px;
+        text-align: center;
+        justify-self: center;  
+        padding: 10px;
     }
 }
