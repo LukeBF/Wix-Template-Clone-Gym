@@ -1,5 +1,5 @@
-/* Extra small devices (portrait phones, less than 390px) */
-@media (max-width: 389.98px) 
+/* Extra small devices (portrait phones, less than 391px) */
+@media (max-width: 390.98px) 
 {
     /* Header */
     .logo > img, .main-header > nav div, .main-header > nav li
@@ -106,7 +106,7 @@
     {
         top: 5rem;
     }
-    
+
     .footer
     {
         position: static;
