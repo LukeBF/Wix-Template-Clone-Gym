@@ -1,38 +1,56 @@
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 
+    /* Hero */
+    .hero > div
+    {
+        width: 60%;
+        text-align: center;
+    }
+    
+    /* Main */
     #facilities-images > div:nth-child(2)
     {
         display: none;
     }
 
     /* Footer */
-    #copyright > p
+    .footer
     {
-        position: absolute;
-        bottom: -60rem;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
+        top: 80rem;
     }
 
-    .container-footer > div:nth-child(1)
+    .footer > div:nth-child(1)
     {
         justify-self: center;
         text-align: center;
     }
 
-    .container-footer > div:nth-child(2)
+    .footer > div:nth-child(2)
     {
-        width: 80%;
-        margin-top: 2rem;
+        width: 70%;
+        margin-top: 1rem;
         text-align: center;
+    }
+
+    .footer > div:nth-child(2) > p
+    {
+        width: 100%;
     }
 
     .name-form
     {
         row-gap: 1rem;
+    }
+
+    #copyright > p
+    {
+        position: absolute;
+        bottom: -65rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #safety-policies
@@ -51,12 +69,45 @@
         
     }
 
+    /* *****Membership Page***** */
+    .hero
+    {
+        height: 60vh;
+    }
+
+    .hero > div
+    {
+        top: 0;
+    }
+
+    .hero > div > h2
+    {
+        font-size: 3rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 60%;
+    }
+    
+    .member-cards
+    {
+        top: 95vh;
+        width: 70%;
+        row-gap: 1rem;
+    }
+
+    .member-cards > article
+    {
+        height: 50vh;
+    }
+
     /* Utilities */
     #facilities-images,
     .grid-col-3-facilities, 
     .grid-col-3-footer,
     .grid-col-3-header,
-    .grid-col-2
+    .grid-col-2,
     .grid-col-3
     {
         grid-template-columns: 1fr;

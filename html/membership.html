@@ -14,12 +14,12 @@
         <link rel="stylesheet" href="../css/med-device-mx-992.css">
         <link rel="stylesheet" href="../css/sm-device-mx-768.css">
         <link rel="stylesheet" href="../css/extra-sm-device-mx-576.css">
+        <link rel="stylesheet" href="../css/extra-sm-device-mx-390.css">
         <title>Gym Membership</title>
     </head>
     <body>
         <div class="page-container">
             <main class="main">
-
                 <!-- HEADER -->
                 <header class="main-header grid grid-col-3-header">
                     <div class="logo">
@@ -49,151 +49,155 @@
                 <section class="hero grid">
                     <div>
                         <h2>Select a Membership</h2>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab fugit dicta expedita non pariatur enim beatae culpa.</p>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab fugit dicta expedita non pariatur enim beatae culpa.</p>
                     </div>
                 </section>
         
                 <!-- CARDS -->
                 <section class="member-cards grid grid-col-3">
                     <article>
-                        <h3>Silver Membership</h3>
+                        <div class="card-content">
+                            <h3>Silver Membership</h3>
         
-                        <div>
-                            <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            <div>
+                                <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            </div>
+                            
+                            <div class="card-description">
+                                <p>Use this area to describe one of your services</p>
+                            </div>
+            
+                            <div class="package-period">
+                                <p>Valid for one month</p>
+                            </div>  
+        
+                            <button type="button">Select</button>
                         </div>
                         
-                        <div class="card-description">
-                            <p>Use this area to describe one of your services</p>
-                        </div>
-        
-                        <div class="package-period">
-                            <p>Valid for one month</p>
-                        </div>  
-        
-                        <button type="button">Select</button>
                     </article>
         
                     <article>
-                        <h3>Gold Membership</h3>
+                        <div class="card-content">
+                            <h3>Gold Membership</h3>
         
-                        <div>
-                            <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            <div>
+                                <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            </div>
+                        
+                            <p class="renewal">Every Month</p>
+            
+                            <div class="card-description">
+                                <p>Use this area to describe one of your services</p>
+                            </div>
+            
+                            <div class="package-period">
+                                <p>Valid for 12 month</p>
+                            </div>
+            
+                            <button type="button">Select</button>
                         </div>
-                       
-                        <p class="renewal">Every Month</p>
-        
-                        <div class="card-description">
-                            <p>Use this area to describe one of your services</p>
-                        </div>
-        
-                        <div class="package-period">
-                            <p>Valid for 12 month</p>
-                        </div>
-        
-                        <button type="button">Select</button>
                     </article>
         
                     <article>
-                        <h3>Platinum Membership</h3>
-        
                         <div>
-                            <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            <h3>Platinum Membership</h3>
+            
+                            <div>
+                                <p class="dollar-symbol">$</p><span class="dollar-value">25</span>
+                            </div>
+            
+                            <!-- <p><span class="dollar-sign">$</span>25</p> -->
+                            <p class="renewal">Every Month</p>
+            
+                            <div class="card-description">
+                                <p>Use this area to describe one of your services</p>
+                            </div>
+            
+                            <button type="button">Select</button>        
                         </div>
-        
-                        <!-- <p><span class="dollar-sign">$</span>25</p> -->
-                        <p class="renewal">Every Month</p>
-        
-                        <div class="card-description">
-                            <p>Use this area to describe one of your services</p>
-                        </div>
-        
-                        <button type="button">Select</button>    
+                        
                     </article>
                 </section>  
             </main>
-        </div>
-                
 
-        <!--FOOTER -->
-        <footer class="container-footer grid grid-col-3-footer">
-            <!-- Footer-Left-Panel -->
-            <div>
-                <img src="../img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">
-                <h2>ONYX</h2>
-                <p>
-                    500 Terry Francois Street<br>
-                    San Francisco, CA 94158<br>
-                    info@mysite.com<br>
-                    123-456-7890
-                </p>
-                
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <div id="copyright">
+            <!--FOOTER -->
+            <footer class="footer grid grid-col-3-footer">
+                <!-- Left-Panel -->
+                <div>
+                    <img src="../img/logo-icon-trans.png" alt="weight icon logo" height="26px" width="30px">
+                    <h2>ONYX</h2>
                     <p>
-                        &#169 2023 by Onyx. Proudly created by twh.com
+                        500 Terry Francois Street<br>
+                        San Francisco, CA 94158<br>
+                        info@mysite.com<br>
+                        123-456-7890
                     </p>
-                </div>
-            </div>
-        
-            <!--Footer-Center-Panel-->
-            <div>
-                <h3>
-                    Note a Member? Get a 45 Day Free-Trial
-                </h3>
-                <p>
-                    Fill out the form below and a sales rep will get in touch shortly.
-                </p>
-
-                <form class="member-form"></form>
-                    <div class="name-form grid grid-col-2">
                     
-                        <div class="box-1">
-                            <label for="f-name">First Name</label> <br>
-                            <input type="text" id="f-name">
-                        </div>
-
-                        <div class="box-2">
-                            <label for="l-name">Last Name</label> <br>
-                            <input type="text" id="l-name">
-                        </div>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <div id="copyright">
+                        <p>
+                            &#169 2023 by Onyx. Proudly created by twh.com
+                        </p>
                     </div>
-             
-                    <div class="mail-message-form">
-                        <div>
-                            <label for="mail">Email</label> <br>
-                            <input type="email"> <br>
+                </div>
+            
+                <!-- Center-Panel -->
+                <div>
+                    <h3>
+                        Note a Member? Get a 45 Day Free-Trial
+                    </h3>
+                    <p>
+                        Fill out the form below and a sales rep will get in touch shortly.
+                    </p>
+
+                    <form class="member-form"></form>
+                        <div class="name-form grid grid-col-2">
+                        
+                            <div class="box-1">
+                                <label for="f-name">First Name</label> <br>
+                                <input type="text" id="f-name">
+                            </div>
+
+                            <div class="box-2">
+                                <label for="l-name">Last Name</label> <br>
+                                <input type="text" id="l-name">
+                            </div>
                         </div>
-                        <div>
-                            <label for="message">Add a message</label> <br>
-                            <textarea id="message" cols="30" rows="10"></textarea> <br>
+                
+                        <div class="mail-message-form">
+                            <div>
+                                <label for="mail">Email</label> <br>
+                                <input type="email"> <br>
+                            </div>
+                            <div>
+                                <label for="message">Add a message</label> <br>
+                                <textarea id="message" cols="30" rows="10"></textarea> <br>
+                            </div>
                         </div>
-                    </div>
 
-                    <button type="submit" class="secondary-links">Submit</button>
-                </form>
-            </div>
+                        <button type="submit" class="secondary-links">Submit</button>
+                    </form>
+                </div>
 
-            <!--Footer-Right-Panel-->
-            <div class="nav-footer">
-                <h3>Menu</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Facilities</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Membership</a></li>
-                    </ul>
-                </nav>
+                <!-- Right-Panel -->
+                <div class="nav-footer">
+                    <h3>Menu</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Facilities</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Membership</a></li>
+                        </ul>
+                    </nav>
 
-                <a href="#" id="safety-policies">Safety Policies</a>
-            </div>
+                    <a href="#" id="safety-policies">Safety Policies</a>
+                </div>
 
-        </footer>
-
+            </footer>
+        </div>
     </body>
 </html>

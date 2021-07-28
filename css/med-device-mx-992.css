@@ -1,35 +1,14 @@
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-        
-    .hero
-    {
-        height: 40vh;
-    }
-
+    
+    /* Hero */
     .hero > div
     {
-        position: relative;
-        top: 10%;
+        width: 60%;
+        text-align: center;
     }
-
-    .hero > div > h2
-    {
-        font-size: 3rem;
-    }
-
-    .hero > div, .hero > div > div
-    {
-        width: 80%;
-    }
-
-    #copyright > p
-    {
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+    
+    /* Main */
     .experience-section-text
     {
         padding: 0;
@@ -45,30 +24,53 @@
     {
         display: none;
     }
-
-    /* Footer */
+    
     #copyright > p
     {
-        position: absolute;
         bottom: -65rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .container-footer > div:nth-child(1)
+    /* Footer */
+    .footer
+    {
+        top: 70rem;
+    }
+
+    .footer > div:nth-child(1)
     {
         justify-self: center;
         text-align: center;
     }
 
-    .container-footer > div:nth-child(2)
+    .footer > div:nth-child(2)
     {
-        width: 80%;
+        width: 70%;
         margin-top: 2rem;
         text-align: center;
+    }
+
+    .footer > div:nth-child(2) > p
+    {
+        width: 100%;
     }
 
     .name-form
     {
         row-gap: 1rem;
+    }
+
+    #copyright > p
+    {
+        position: absolute;
+        bottom: -65rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #safety-policies
@@ -84,6 +86,41 @@
     {
         margin-top: 2rem;
         text-align: center;
+        
+    }
+
+    /* *****Membership Page***** */
+    .hero
+    {
+        height: 60vh;
+    }
+
+    .hero > div
+    {
+        /* position: relative; */
+        top: 0;
+    }
+
+    .hero > div > h2
+    {
+        font-size: 3rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 60%;
+    }
+
+    .member-cards
+    {
+        top: 90vh;
+        width: 70%;
+        row-gap: 1rem;
+    }
+
+    .member-cards > article
+    {
+        height: 45vh;
     }
 
     /* Utilities */

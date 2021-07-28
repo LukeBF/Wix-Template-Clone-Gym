@@ -1,15 +1,16 @@
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    
+/* Extra small devices (portrait phones, less than 390px) */
+@media (max-width: 389.98px) 
+{
+    /* Header */
     .logo > img, .main-header > nav div, .main-header > nav li
     {
         display: none;
     }
-
+    
     /* Hero */
     .hero
     {
-        height: 40vh;
+        height: 60vh;
     }
 
     .hero > div
@@ -18,12 +19,7 @@
         top: 10%;
     }
 
-    .hero > div > h2
-    {
-        font-size: 3rem;
-    }
-
-    .hero > div, .hero > div > div
+    .hero > div
     {
         width: 80%;
     }
@@ -62,26 +58,13 @@
         font-size: 2rem;
     }
 
-    .hero > div > p
+    .hero > div
     {
+        width: 60%;
         text-align: center;
     }
 
-    .hero > div, .hero > div > div
-    {
-        width: 60%;
-    }
-
     /* Card Items */
-    .dollar-symbol, 
-    .dollar-value, 
-    .card-description, 
-    .package-period, 
-    .member-cards > article > div > button, .renewal
-    {
-        position: static;
-    }
-
     .member-cards
     {
         position: static;
@@ -91,7 +74,7 @@
     .member-cards > article
     {
         top: 0;
-        height: 45vh;
+        height: 50vh;
     }
 
     .card-description,
@@ -107,33 +90,12 @@
         display: inline-block;
     }
 
-    .member-cards > article
-    {
-        position: relative;
-        height: 45vh;
-    }
-
-    .member-cards > article > div
-    {
-        text-align: center;
-    }
-
-    .member-cards > article > div > button
-    {
-        margin-top: 1rem;
-    }
-
-    .member-cards > article:nth-child(1) button
-    {
-        margin-top: 1rem;
-    }
-
     /* Footer */
     .footer
     {
         position: static;
-        width: 100%;
-        top: 170vh;
+        /* width: 100%; */
+        /* top: 170vh; */
         row-gap: 2rem;
     }
 

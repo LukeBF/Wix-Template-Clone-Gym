@@ -1,5 +1,7 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    
+    /* Hero */
     .hero
     {
         height: 40vh;
@@ -7,8 +9,8 @@
 
     .hero > div
     {
-        position: relative;
-        top: 10%;
+        width: 60%;
+        text-align: center;
     }
 
     .hero > div > h2
@@ -20,15 +22,8 @@
     {
         width: 80%;
     }
-
-    #copyright > p
-    {
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+    
+    /* Main */
     .experience-section-text
     {
         padding: 0;
@@ -40,69 +35,83 @@
         width: 100%;
     }
 
-    .container-footer
+    #facilities-images > div:nth-child(2)
     {
-        width: 100%;
+        display: none;
+    }
+
+    /* *****Membership Page***** */
+    .hero
+    {
+        height: 60vh;
+    }
+
+    .hero > div
+    {
+        position: relative;
         top: 0;
+    }
+
+    .hero > div > h2
+    {
+        font-size: 3rem;
+    }
+
+    .hero > div, .hero > div > div
+    {
+        width: 60%;
+    }
+
+    /* Card Items */
+    .member-cards
+    {
+        position: static;
+        margin-top: 2rem;
+    }
+
+    .member-cards > article
+    {
+        top: 0;
+        height: 50vh;
+    }
+
+    .card-description,
+    .package-period
+    {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    /* Footer */
+    .footer
+    {
+        position: static;
+        width: 100%;
+        top: 170vh;
         row-gap: 2rem;
     }
 
-    .container-footer > div:nth-child(2) > h3
-    {
-        text-align: center;
-    }
-    
-    .container-footer > div
-    {
-        top: 20%;
-    }
-
-    .container-footer > div:nth-child(1)
+    .footer > div:nth-child(1)
     {
         justify-self: center;
         text-align: center;
         /* position: relative; */
     }
 
-    .container-footer > div:nth-child(2)
+    .footer > div:nth-child(2)
     {
-        padding: 0;
-        width: 60%;    
-    }
-
-    .container-footer > div:nth-child(2) > p
-    {
-        width: 100%;
+        width: 70%;
+        margin-top: 1rem;
         text-align: center;
-    }
-
-    #facilities-images > div:nth-child(2)
-    {
-        display: none;
     }
 
     #copyright > p
     {
-        position: absolute;
-        bottom: -65rem;
-    }
-
-    .container-footer > div
-    {
-        top: 0;
-    }
-    
-    .container-footer > div:nth-child(1)
-    {
-        justify-self: center;
-        text-align: center;
-    }
-
-    .container-footer > div:nth-child(2)
-    {
-        width: 80%;
-        margin-top: 2rem;
-        text-align: center;
+        bottom: -70rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .name-form
@@ -121,7 +130,25 @@
 
     .nav-footer
     {
-        margin-top: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    
+
+    .footer > div:nth-child(2) > h3
+    {
+        text-align: center;
+    }
+    
+    .footer > div
+    {
+        top: 20%;
+    }
+
+    .footer > div:nth-child(2) > p
+    {
+        width: 100%;
         text-align: center;
     }
 

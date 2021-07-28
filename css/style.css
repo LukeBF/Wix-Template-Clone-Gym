@@ -10,7 +10,7 @@
 /* HEADER */
 .main-header
 {
-    height: 10vh;
+    /* height: 10vh; */
     justify-content: center; 
     align-items: center;
 }
@@ -224,30 +224,27 @@ input:hover
 }
 
 /* FOOTER */
-.container-footer
+.footer
 {
-    /* padding-top: 2rem ; */
-    /* margin-top: 2rem; */
     width: 80%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    /* justify-content: center; */
-    top: 5rem;
+    top: 15rem;
     position: relative;
     column-gap: 2rem;
 }
 
 /* Left-Panel */
-.container-footer > div:nth-child(1) > img, 
-.container-footer > div:nth-child(1) > h2
+.footer > div:nth-child(1) > img, 
+.footer > div:nth-child(1) > h2
 {
     display: inline-block;
     font-size: 2rem;
 }
 
-.container-footer > div:nth-child(1)
+.footer > div:nth-child(1)
 {
     justify-self: center;
     position: relative;
@@ -261,16 +258,15 @@ input:hover
     width: 100%;
     position: absolute;
     bottom: 0;
-    
 }
 
 /* Center-Panel */
-.container-footer > div:nth-child(2)
+.footer > div:nth-child(2)
 {
     padding: 0 5rem;
 }
 
-.container-footer > div:nth-child(2) > p
+.footer > div:nth-child(2) > p
 {
     width: 80%;
 }
@@ -299,7 +295,7 @@ input:hover
 }
 
 /* Right-Panel */
-.container-footer > div
+.footer > div
 {
     justify-self: center;
 }
@@ -333,48 +329,47 @@ input:hover
 .hero
 {
     background-color: #0B7FA2;
-    height: 75vh;
+    height: 60vh;
     color: var(--secondary-font-color);
     justify-items: center;
     align-items: center;
-    position: absolute;
-    width: 100%;
-}
-
-
-.hero > div
-{
     position: relative;
-    top: -15%;
-}
-
-.hero > div, .hero > div > div
-{
-    width: 55%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .hero > div > h2
 {
     font-size: 4rem;
+    text-align: center;
 }
 
-/* Cards Container */
+/* Cards */
 .member-cards
 {
     width: 80%;
+    text-align: center;
     position: absolute;
-    top: 65vh;
+    top: 55vh;
     column-gap: 3rem;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 0 auto;
+    
 }
 
 /* Card Items */
+.dollar-symbol, 
+.dollar-value,
+.card-description,
+.package-period,
+.member-cards > article > div > button,
+.renewal
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 .member-cards > article
 {
     background-color: var(--primary-bg-color);
@@ -382,28 +377,26 @@ input:hover
     text-align: center;
     padding: 1rem;
     position: relative;
-    /* top: 45%; */
     height: 35vh;
-    
 }
 
-.member-cards > article > h3
+.member-cards > article > div
 {
-    font-size: 1.2rem;
+    text-align: center;
 }
 
-.dollar-symbol, 
-.dollar-value,
-.card-description,
-.package-period,
-.member-cards > article > button,
-.renewal
+.member-cards > article > div > button
 {
-    position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    background-color: var(--secondary-link-bg-color);
+    color: var(--secondary-font-color);
+    border: none;
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: 1rem;
 }
 
 .dollar-value
@@ -433,15 +426,3 @@ input:hover
     top: 7rem;
     font-weight: bold;
 }
-
-.member-cards > article > button
-{
-    bottom: 0;
-    background-color: var(--secondary-link-bg-color);
-    color: var(--secondary-font-color);
-    border: none;
-    padding: 1rem;
-    width: 60%;
-    margin-bottom: 1rem;
-}
-
