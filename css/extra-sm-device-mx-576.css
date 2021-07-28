@@ -29,15 +29,13 @@
     }
     
     /* Main */
-    .experience-section-text
-    {
-        padding: 0;
-    }
+    
 
     #experience-section > div:nth-child(2), 
     #experience-section > div:nth-child(3)
     {
         width: 100%;
+        padding: 0;
     }
 
     #facilities-images > div:nth-child(2)
@@ -208,8 +206,9 @@
 
     .primary-links
     {
-        padding: 1rem 1rem;
         text-align: center;
         justify-self: center;  
+        padding: 1rem 1rem;
+        width: 55%;
     } 
 }

@@ -7,9 +7,14 @@
         width: 60%;
         text-align: center;
     }
-    
+
     /* Main */
     .experience-section-text
+    {
+        padding: 0;
+    }
+
+    #experience-section p
     {
         padding: 0;
     }
@@ -35,9 +40,9 @@
     }
 
     /* Footer */
-    .footer
+    .footer-home
     {
-        top: 70rem;
+        top: 5rem;
     }
 
     .footer > div:nth-child(1)
@@ -66,7 +71,7 @@
     #copyright > p
     {
         position: absolute;
-        bottom: -65rem;
+        bottom: -70rem;
         left: 0;
         right: 0;
         margin-left: auto;
@@ -138,11 +143,6 @@
         text-align: center;
         justify-self: center;  
         padding: 1rem 1rem;
-        margin-bottom: 40px; 
+        width: 55%;
     } 
-
-    #experience-section p
-    {
-        padding: 1rem 3rem;
-    }
 }

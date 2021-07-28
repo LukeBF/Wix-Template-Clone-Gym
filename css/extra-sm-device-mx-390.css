@@ -8,6 +8,12 @@
     }
     
     /* Hero */
+
+    #welcome-hero > div > h1
+    {
+        font-size: 3rem;
+    }
+
     .hero
     {
         height: 60vh;
@@ -39,6 +45,11 @@
     #facilities-images > div:nth-child(2)
     {
         display: none;
+    }
+
+    #facilities-section > div:nth-child(1) > p
+    {
+        padding: 0;
     }
 
     /* *****Membership Page***** */
@@ -91,6 +102,11 @@
     }
 
     /* Footer */
+    .footer-home
+    {
+        top: 5rem;
+    }
+    
     .footer
     {
         position: static;

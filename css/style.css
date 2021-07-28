@@ -236,6 +236,11 @@ input:hover
     column-gap: 2rem;
 }
 
+.footer-home
+{
+    top: 5rem;
+}
+
 /* Left-Panel */
 .footer > div:nth-child(1) > img, 
 .footer > div:nth-child(1) > h2

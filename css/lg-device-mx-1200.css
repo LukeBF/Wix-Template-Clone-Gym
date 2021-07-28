@@ -7,17 +7,39 @@
         width: 60%;
         text-align: center;
     }
-    
+
     /* Main */
+    /* #experience-section div:nth-child(2), 
+    #experience-section div:nth-child(3)
+    {
+        padding: 0 auto;
+    } */
+
+    #experience-section
+    {
+        row-gap: 2rem;
+    }
+
+    .experience-section-text
+    {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .experience-section-text > p
+    {
+        text-align: center;
+    }
+
     #facilities-images > div:nth-child(2)
     {
         display: none;
     }
 
     /* Footer */
-    .footer
+    .footer-home
     {
-        top: 80rem;
+        top: 5rem;
     }
 
     .footer > div:nth-child(1)
@@ -115,6 +137,8 @@
 
     .primary-links
     {
-        width: 70%;
+        padding: 0 10px;
+        text-align: center;
+        justify-self: center;  
     }
 }
