@@ -29,6 +29,16 @@
     }
     
     /* Main */
+
+    .experience-section-text
+    {
+        padding: 0;
+    }
+
+    #experience-section p
+    {
+        padding: 0;
+    }
     
     #facilities-section > div:nth-child(1) > p
     {
