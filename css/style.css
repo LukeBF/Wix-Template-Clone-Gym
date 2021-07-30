@@ -10,8 +10,7 @@
 /* HEADER */
 .main-header
 {
-    /* height: 10vh; */
-    justify-content: center; 
+    /* justify-content: center;  */
     align-items: center;
 }
 
@@ -33,7 +32,7 @@
     display: inline-block;
 }
 
-/* NAVIGATION */
+/* Navigation*/
 .main-header > nav:nth-child(2)
 {
     justify-self: center;
@@ -76,13 +75,13 @@
     color: #ffffff;
 }
 
-/* *****HERO***** */
+/* HERO SECTION */
 #welcome-hero
 {
     grid-template-columns: 1fr;
     height: 120vh;
     justify-items: center;
-    background-image: url(../img/banner-image.jpg);
+    background-image: url('../img/banner-image.jpg');
     background-attachment: fixed;
     background-repeat: none;
     /* background-position:center center; */
@@ -120,14 +119,14 @@
     text-decoration: none;
 }
 
-/* *****MAIN***** */
+/* MAIN SECTION */
 .container
 {
     background-color: var(--primary-bg-color);
     width: 80%;
     margin: 0 auto;
     position: relative;
-    bottom: 20vh;
+    bottom: 10vh;
 }
 
 .container div:nth-child(1) > img, .container div:nth-child(4) > img
@@ -136,7 +135,6 @@
     display: block;    
 } 
 
-/* *****OVERLAPPING GRID WITH HERO***** */
 .experience-section-text
 {
     margin: 0 -80px;
@@ -166,24 +164,25 @@ input:hover
 }
 
 
-/* *****FACILITIES***** */
+/* FACILITIES */
 #facilities-section
 {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-font-color);
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
 #facilities-section > div:nth-child(1)
 {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
 #facilities-section > div:nth-child(1) > p
 {
-    padding: 20px 110px 50px 110px; 
+    text-align: center;
+    padding: 1rem 2rem 3rem 2rem;
 }
 
 #facilities-section > div:nth-child(1) > h2
@@ -199,7 +198,6 @@ input:hover
     margin-bottom: 70px;
 }
 
-/*fit images into 3 column grid*/
 #facilities-images img
 {
     width: 100%;
@@ -224,21 +222,16 @@ input:hover
 }
 
 /* FOOTER */
-.footer
+.footer-home
 {
     width: 80%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 15rem;
+    top: 5rem;
     position: relative;
     column-gap: 2rem;
-}
-
-.footer-home
-{
-    top: 5rem;
 }
 
 /* Left-Panel */
@@ -253,7 +246,6 @@ input:hover
 {
     justify-self: center;
     position: relative;
-    /* width: 60%; */
     justify-content: center;
     align-items: center;
 }
@@ -268,7 +260,7 @@ input:hover
 /* Center-Panel */
 .footer > div:nth-child(2)
 {
-    padding: 0 5rem;
+    padding: 0 2rem;
 }
 
 .footer > div:nth-child(2) > p
@@ -331,6 +323,7 @@ input:hover
 }
 
 /* *****MEMBERSHIP PAGE***** */
+/* Hero Section */
 .hero
 {
     background-color: #0B7FA2;
@@ -358,7 +351,6 @@ input:hover
     left: 0;
     right: 0;
     margin: 0 auto;
-    
 }
 
 /* Card Items */

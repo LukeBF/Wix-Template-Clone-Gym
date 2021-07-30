@@ -107,7 +107,7 @@ li
     text-align: center;
     justify-self: center;  
     padding: 1rem 3rem;
-    margin-bottom: 40px; 
+    margin-bottom: 5rem; 
 } 
 
 .secondary-links
@@ -116,6 +116,7 @@ li
     color: var(--secondary-font-color);
     padding: 20px 40px;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     border-radius: 50px;
     border: 0;
     width: 100%;

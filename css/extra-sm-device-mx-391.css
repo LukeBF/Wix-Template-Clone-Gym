@@ -1,17 +1,32 @@
 /* Extra small devices (portrait phones, less than 391px) */
 @media (max-width: 390.98px) 
 {
-    /* Header */
-    .logo > img, .main-header > nav div, .main-header > nav li
+    /* HEADER */
+    .main-header > div:nth-child(1)
+    {
+        padding: 1rem 0;
+    }
+
+    .main-header > div:nth-child(3)
+    {
+        font-size: 1.5rem;
+    }
+
+    .main-header > nav div, 
+    .main-header > nav li
     {
         display: none;
     }
     
-    /* Hero */
-
+    /* HERO */
     #welcome-hero > div > h1
     {
         font-size: 3rem;
+    }
+
+    #welcome-hero > div > p
+    {
+        padding: 0 0.5rem;
     }
 
     .hero
@@ -30,16 +45,27 @@
         width: 80%;
     }
     
-    /* Main */
+    /* MAIN */
     .experience-section-text
     {
         padding: 0;
+    }
+
+    #experience-section
+    {
+        margin-bottom: 2rem;
     }
 
     #experience-section > div:nth-child(2), 
     #experience-section > div:nth-child(3)
     {
         width: 100%;
+    }
+
+    #experience-section > div:nth-child(4)
+    {
+        grid-row-start: 3;
+        grid-row-end: span 1;
     }
 
     #facilities-images > div:nth-child(2)
@@ -104,7 +130,7 @@
     /* Footer */
     .footer-home
     {
-        top: 5rem;
+        margin-top: 2rem;
     }
 
     .footer
@@ -129,27 +155,14 @@
         text-align: center;
     }
 
-    #copyright > p
-    {
-        bottom: -70rem;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .name-form
     {
         row-gap: 1rem;
     }
 
-    #safety-policies
+    #message
     {
-        bottom: -5rem;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 1rem;
     }
 
     .nav-footer
@@ -165,13 +178,31 @@
     
     .footer > div
     {
-        top: 20%;
+        top: 0;
     }
 
     .footer > div:nth-child(2) > p
     {
         width: 100%;
         text-align: center;
+    }
+
+    #copyright > p
+    {
+        bottom: -70rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #safety-policies
+    {
+        bottom: -3rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Utilities */

@@ -1,7 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
-    .logo > img, .main-header > nav div, .main-header > nav li
+    .main-header > nav div, .main-header > nav li
     {
         display: none;
     }

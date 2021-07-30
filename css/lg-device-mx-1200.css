@@ -42,6 +42,14 @@
         top: 5rem;
     }
 
+    .footer
+    {
+        position: static;
+        width: 100%;
+        top: 170vh;
+        row-gap: 2rem;
+    }
+
     .footer > div:nth-child(1)
     {
         justify-self: center;
@@ -114,9 +122,9 @@
     
     .member-cards
     {
-        top: 95vh;
-        width: 70%;
-        row-gap: 1rem;
+        position: static;
+        margin-top: 2rem;
+        row-gap: 2rem;
     }
 
     .member-cards > article
