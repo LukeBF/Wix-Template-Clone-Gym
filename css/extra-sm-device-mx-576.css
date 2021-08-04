@@ -1,12 +1,18 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
+    /* HEADER */
+    .main-header > div:nth-child(1)
+    {
+        padding: 1rem 0;
+    }
+
     .main-header > nav div, .main-header > nav li
     {
         display: none;
     }
 
-    /* Hero */
+    /* HERO */
     .hero
     {
         height: 40vh;
@@ -28,7 +34,12 @@
         width: 80%;
     }
     
-    /* Main */
+    /* MAIN */
+
+    #experience-section
+    {
+        margin-bottom: 2rem;
+    }
 
     .experience-section-text
     {
@@ -55,6 +66,12 @@
     #facilities-images > div:nth-child(2)
     {
         display: none;
+    }
+
+    #experience-section > div:nth-child(4)
+    {
+        grid-row-start: 3;
+        grid-row-end: span 1;
     }
 
     /* *****Membership Page***** */
@@ -141,6 +158,11 @@
     }
 
     /* Footer */
+    .footer-home
+    {
+        margin-top: 2rem;
+    }
+    
     .footer
     {
         position: static;
@@ -179,7 +201,7 @@
 
     #safety-policies
     {
-        bottom: -5rem;
+        bottom: -3rem;
         left: 0;
         right: 0;
         margin-left: auto;
