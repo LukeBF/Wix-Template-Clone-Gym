@@ -1,6 +1,12 @@
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     
+    /* HEADER */
+    .main-header > div:nth-child(1)
+    {
+        padding: 1rem 0;
+    }
+
     /* Hero */
     .hero > div
     {
@@ -9,6 +15,11 @@
     }
 
     /* Main */
+    #experience-section
+    {
+        margin-bottom: 2rem;
+    }
+
     .experience-section-text
     {
         padding: 0;
@@ -23,6 +34,12 @@
     #experience-section > div:nth-child(3)
     {
         width: 100%;
+    }
+
+    #experience-section > div:nth-child(4)
+    {
+        grid-row-start: 3;
+        grid-row-end: span 1;
     }
 
     #facilities-images > div:nth-child(2)
@@ -42,7 +59,7 @@
     /* Footer */
     .footer-home
     {
-        top: 5rem;
+        margin-top: 2rem;
     }
 
     .footer
