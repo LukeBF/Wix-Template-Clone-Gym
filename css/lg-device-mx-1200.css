@@ -1,19 +1,24 @@
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 
-    /* Hero */
+    /* HEADER */
+    .main-header > div:nth-child(1)
+    {
+        padding: 1rem 0;
+    }
+
+    /* HERO */
     .hero > div
     {
         width: 60%;
         text-align: center;
     }
 
-    /* Main */
-    /* #experience-section div:nth-child(2), 
-    #experience-section div:nth-child(3)
+    /* MAIN */
+    #experience-section
     {
-        padding: 0 auto;
-    } */
+        margin-bottom: 2rem;
+    }
 
     #experience-section
     {
@@ -26,6 +31,12 @@
         width: 80%;
     }
 
+    #experience-section > div:nth-child(4)
+    {
+        grid-row-start: 3;
+        grid-row-end: span 1;
+    }
+
     .experience-section-text > p
     {
         text-align: center;
@@ -36,10 +47,10 @@
         display: none;
     }
 
-    /* Footer */
+    /* FOOTER */
     .footer-home
     {
-        top: 5rem;
+        margin-top: 2rem;
     }
 
     .footer
@@ -73,6 +84,11 @@
         row-gap: 1rem;
     }
 
+    #message
+    {
+        margin-top: 1rem;
+    }
+
     #copyright > p
     {
         position: absolute;
@@ -85,7 +101,7 @@
 
     #safety-policies
     {
-        bottom: -5rem;
+        bottom: -3rem;
         left: 0;
         right: 0;
         margin-left: auto;
@@ -145,8 +161,9 @@
 
     .primary-links
     {
-        padding: 0 10px;
         text-align: center;
         justify-self: center;  
-    }
+        padding: 1rem 1rem;
+        width: 55%;
+    } 
 }

@@ -162,7 +162,7 @@
     {
         margin-top: 2rem;
     }
-    
+
     .footer
     {
         position: static;
@@ -197,6 +197,11 @@
     .name-form
     {
         row-gap: 1rem;
+    }
+
+    #message
+    {
+        margin-top: 1rem;
     }
 
     #safety-policies

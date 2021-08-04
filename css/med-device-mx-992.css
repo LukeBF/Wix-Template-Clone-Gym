@@ -93,6 +93,11 @@
         row-gap: 1rem;
     }
 
+    #message
+    {
+        margin-top: 1rem;
+    }
+
     #copyright > p
     {
         position: absolute;
