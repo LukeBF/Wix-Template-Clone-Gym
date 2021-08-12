@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/utilities.css">
         <link rel="stylesheet" href="./css/lg-device-mx-1500.css">
+        <link rel="stylesheet" href="./css/lg-device-mx-1350.css">
         <link rel="stylesheet" href="./css/lg-device-mx-1200.css">
         <link rel="stylesheet" href="./css/sm-device-mx-768.css">
         <link rel="stylesheet" href="./css/med-device-mx-992.css">
@@ -20,31 +21,59 @@
     <body>
         <!--Navigation and sign in-->
         <div class="page-container">
-            <main class="main">
-                <header class="main-header grid grid-col-3-header">
-                    <div class="logo">
-                        <img src="./img/logo-icon-trans.png" alt="weight icon logo" height="22px" width="26">
-                        <h2>ONYX</h2>
+            <nav class="grid grid-col-3-header">
+                <div class="logo">                   
+                    <img src="img/logo-icon-trans.png" alt="logo-icon">
+                    <h2>ONYX</h2>
+                    <div class="burger">
+                        <i class="fas fa-bars burger"></i>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a class="links" href="#">ABOUT</a></li>
+                    <li><a class="links" href="#">FACILITIES</a></li>
+                    <li><a class="links" href="#">SERVICES</a></li>
+                    <li><a class="links" href="./html/membership.html">MEMBERSHIP</a></li>
+                    <div class="log-in">
+                        <span><i class="fas fa-user-circle" id="user-icon"></i></span>
+                        <span><a class="links" href="#">Log In</a></span> 
                     </div>
                     
-                    <nav>
-                        <ul>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">FACILITIES</a></li>
-                            <li><a href="#">SERVICES</a></li>
-                            <li><a href="./html/membership.html">MEMBERSHIP</a></li>
-                            <div>
-                                <span><i class="fas fa-user-circle"></i></span>
-                                <span><a href="#">Log In</a></span>               
-                            </div>
-                        </ul>
-                    </nav>
-        
-                    <div class="grid">
-                        <a href="#">Join Now</a>
-                    </div>
-                </header>
+                </ul>
+                
+                <div class="grid">
+                    <a class="links" href="#">Join Now</a>  
+                </div>
+            </nav>
 
+            <!-- <header class="main-header grid grid-col-3-header">
+                <div class="logo">
+                    <img src="./img/logo-icon-trans.png" alt="gym logo">
+                    <h2>ONYX</h2>
+                    <div>
+                        <i class="fas fa-bars burger"></i>
+                    </div>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">FACILITIES</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="./html/membership.html">MEMBERSHIP</a></li>
+                        <div>
+                            <span><i class="fas fa-user-circle"></i></span>
+                            <span><a href="#">Log In</a></span>               
+                        </div> 
+                    </ul>
+                </nav>
+    
+                <div class="grid">
+                    <a href="#">Join Now</a>
+                </div>
+            </header> -->
+
+            <main class="main">
                 <!--Hero-->
                 <section id="welcome-hero" class="grid">
                     <div>
@@ -195,5 +224,7 @@
             </div>
 
         </footer>
+
+        <script src="js/app.js"></script>
     </body>
 </html>

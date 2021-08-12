@@ -1,11 +1,17 @@
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 
-    /* HEADER */
-    .main-header > div:nth-child(1)
+    .logo
+    {
+        text-align: center;
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    nav > div:nth-child(3) 
     {
         padding: 1rem 0;
-    }
+    } 
 
     /* HERO */
     .hero > div

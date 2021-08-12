@@ -5,18 +5,118 @@
     box-sizing: border-box;
 }
 
+/* Header-Navigation */
+
+.logo
+{
+    margin-left: 2rem;
+}
+
+.logo > div:nth-child(1)
+{
+    align-items: center;
+}
+
+.logo > img
+{
+    width:30px;
+}
+
+.logo > h2
+{
+    cursor: pointer;
+}
+
+.logo > img,
+.logo > h2,
+.logo > div:nth-child(3)
+{
+    display: inline-block;
+}
+
+nav
+{
+    align-items: center;
+    min-height: 10vh;
+}
+
+nav > ul > div
+{
+    display: inline-block;
+}
+
+.nav-links
+{
+    list-style: none;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-links > li
+{
+    display: inline-block;
+    padding: 0.2rem;
+    margin: 2rem;
+  
+}
+
+.log-in span
+{
+    display: inline-block;
+    padding: 0.5rem 0;
+}
+
+.burger
+{
+    display: none;
+}
+
+#user-icon
+{
+    font-size: 1.1rem;
+}
+
+.log-in i,
+.log-in a
+{
+    color: var(--secondary-bg-color);
+}
+
+nav > div:nth-child(3) 
+{
+    background-color: var(--secondary-bg-color);
+    height: 100%;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+} 
+
+nav > div:nth-child(3) > a
+{
+    color: var(--secondary-font-color);
+}
 /* *****HOME PAGE***** */
 
 /* HEADER */
-.main-header
+/* .main-header
 {
-    /* justify-content: center;  */
     align-items: center;
+}
+
+.burger
+{
+    visibility: hidden;
 }
 
 .logo
 {
     padding: 20px;
+}
+
+.logo > img
+{
+    width:30px;
 }
 
 .logo > h2
@@ -32,7 +132,7 @@
     display: inline-block;
 }
 
-/* Navigation*/
+
 .main-header > nav:nth-child(2)
 {
     justify-self: center;
@@ -73,7 +173,7 @@
 {
     padding: 1rem;
     color: #ffffff;
-}
+} */
 
 /* HERO SECTION */
 #welcome-hero
@@ -126,7 +226,7 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-    bottom: 10vh;
+    bottom: 15vh;
 }
 
 .container div:nth-child(1) > img, .container div:nth-child(4) > img
@@ -222,14 +322,14 @@ input:hover
 }
 
 /* FOOTER */
-.footer-home
+.footer
 {
     width: 80%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 5rem;
+    top: 15rem;
     position: relative;
     column-gap: 2rem;
 }

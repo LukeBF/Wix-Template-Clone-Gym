@@ -2,29 +2,7 @@
 @media (max-width: 1500px) {
 
     /* HOME PAGE */
-
-    /* *****Logo***** */
-    .logo{
-        text-align: center;
-        padding: 0;
-        margin-left: 0;
-    }
-
-    .main-header > nav:nth-child(2) span > i
-    {
-        display: none;
-    }
-
-    .main-header > nav:nth-child(2) span, .main-header > nav:nth-child(2) span > a
-    {
-       display: none;
-    } 
-
-    .main-header > div:nth-child(3) > a
-    {
-        padding: 0;
-        color: #ffffff;
-    }
+     
 
     /* *****Hero***** */
     #welcome-hero

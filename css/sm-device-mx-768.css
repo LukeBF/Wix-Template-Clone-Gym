@@ -1,7 +1,26 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* Header */
-    .main-header > nav div, .main-header > nav li
+    .nav-links > li
+    {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .burger
+    {
+        display: inline;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .show-nav
     {
         display: none;
     }

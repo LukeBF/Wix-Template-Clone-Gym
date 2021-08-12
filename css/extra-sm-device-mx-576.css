@@ -2,14 +2,26 @@
 @media (max-width: 575.98px) {
     
     /* HEADER */
-    .main-header > div:nth-child(1)
+    /* .main-header > div:nth-child(1)
     {
         padding: 1rem 0;
-    }
+    } */
 
-    .main-header > nav div, .main-header > nav li
+
+    /* .main-header > nav div, .main-header > nav li
     {
         display: none;
+    } */
+
+    .nav-links > li
+    {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+        /* display: none; */
+        /* border: 1px solid black; */
+        /* background-color: gray; */
     }
 
     /* HERO */

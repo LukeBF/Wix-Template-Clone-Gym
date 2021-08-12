@@ -15,7 +15,11 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    /* position: relative; */
+}
+
+.hide
+{
+    display: none;
 }
 
 .page-container
@@ -26,7 +30,6 @@ body
 .main
 {
     overflow: auto;
-    
 }
 
 html, body
@@ -37,6 +40,7 @@ html, body
 a
 {
     text-decoration: none;
+    color: var(--primary-font-color);
 }
 
 li
@@ -48,12 +52,6 @@ li
 .grid
 {
     display: grid;
-}
-
-/* Header-Navigation */
-.grid-col-3-header
-{
-    grid-template-columns: 1fr 80% 10%
 }
 
 /* Home Page-Main Section */
@@ -68,11 +66,15 @@ li
     grid-template-columns: 1fr;
 }
 
-
 /* Membership Page-Cards */
 .grid-col-3
 {
     grid-template-columns: repeat(3,1fr);
+}
+
+.grid-col-3-header
+{
+    grid-template-columns: 10% 1fr 10%;
 }
 
 /* Facilities Images */
@@ -177,6 +179,11 @@ li
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+    /* .grid-col-3-header
+    {
+        grid-template-columns: 1fr;
+    } */
     /* #facilities-images,
     .grid-col-3-facilities, 
     .grid-col-3-footer,
@@ -196,6 +203,7 @@ li
 
 /* ************************************************** */
 @media (max-width: 575.98px) {
+
     /* #facilities-images,
     .grid-col-3-facilities, 
     .grid-col-3-footer,
