@@ -2,8 +2,7 @@
 @media (max-width: 1500px) {
 
     /* HOME PAGE */
-     
-
+    
     /* *****Hero***** */
     #welcome-hero
     {
@@ -132,17 +131,13 @@
     /* ******************************************************************** *
 
     /* *****MEMBERSHIP PAGE***** */
-   
 
     /* CARD ITEMS */
     .member-cards > article
     {
         top: 0;
-        height: 45vh;
+        height: 30vh;
     }
-
-
-
      
 }
 

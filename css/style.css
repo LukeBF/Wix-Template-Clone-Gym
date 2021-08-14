@@ -6,7 +6,6 @@
 }
 
 /* Header-Navigation */
-
 .logo
 {
     margin-left: 2rem;
@@ -96,84 +95,6 @@ nav > div:nth-child(3) > a
 {
     color: var(--secondary-font-color);
 }
-/* *****HOME PAGE***** */
-
-/* HEADER */
-/* .main-header
-{
-    align-items: center;
-}
-
-.burger
-{
-    visibility: hidden;
-}
-
-.logo
-{
-    padding: 20px;
-}
-
-.logo > img
-{
-    width:30px;
-}
-
-.logo > h2
-{
-    font-size: 1.6rem;
-}
-
-.logo > img, 
-.logo > h2,
-.main-header > nav div,
-.main-header > nav li
-{
-    display: inline-block;
-}
-
-
-.main-header > nav:nth-child(2)
-{
-    justify-self: center;
-    align-self: center;
-}
-
-.main-header > nav:nth-child(2) span > i
-{
-    font-size: 1.5rem;
-    position: relative;
-    top: 3px
-}
-
-.main-header > nav:nth-child(2) span, .main-header > nav:nth-child(2) span > a
-{
-    color: #AA2A5D;
-    position: relative;
-    margin-left: 5px;
-} 
-
-.main-header > nav li a
-{
-    padding: 50px 20px;
-    color: #000;
-    font-weight: bold;
-}
-
-.main-header > div:nth-child(3) 
-{
-    background-color: #AA2A5D;
-    height: 10vh;
-    right: 0;
-    justify-content: center;
-    align-items: center;
-} 
-
-.main-header > div:nth-child(3) > a
-{
-    padding: 1rem;
-    color: #ffffff;
-} */
 
 /* HERO SECTION */
 #welcome-hero
