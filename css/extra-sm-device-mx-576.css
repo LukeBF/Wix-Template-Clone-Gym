@@ -74,7 +74,7 @@
     /* *****Membership Page***** */
     .hero
     {
-        height: 30vh;
+        height: 40vh;
     }
 
     .hero > div
@@ -117,7 +117,7 @@
     .member-cards > article
     {
         top: 0;
-        height: 20vh;
+        height: 60vh;
     }
 
     .card-description,
@@ -133,11 +133,11 @@
         display: inline-block;
     }
 
-    .member-cards > article
+    /* .member-cards > article
     {
         position: relative;
         height: 25vh;
-    }
+    } */
 
     .member-cards > article > div
     {

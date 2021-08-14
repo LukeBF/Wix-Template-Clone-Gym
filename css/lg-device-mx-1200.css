@@ -123,7 +123,7 @@
     /* *****Membership Page***** */
     .hero
     {
-        height: 30vh;
+        height: 60vh;
     }
 
     .hero > div
@@ -150,7 +150,7 @@
 
     .member-cards > article
     {
-        height: 30vh;
+        height: 70vh;
     }
 
     /* Utilities */
