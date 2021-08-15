@@ -2,17 +2,17 @@
     /* Membership */
     .hero
     {
-        height: 50vh;
+        height: 80vh;
     }
 
     .member-cards
     {
-        top: 20rem;
+        top: 25rem;
     }
 
     .member-cards > article
     {
-        height: 60vh;
+        height: 90vh;
     }
 
     .card-description
@@ -22,6 +22,6 @@
 
     .footer
     {
-        top: 20rem;
+        top: 25rem;
     }
 }

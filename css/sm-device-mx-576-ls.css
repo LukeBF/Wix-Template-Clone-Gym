@@ -3,4 +3,10 @@
     {
         height: 60vh;
     }
+
+    
+    .member-cards > article
+    {
+        height: 80vh;
+    }
 }
