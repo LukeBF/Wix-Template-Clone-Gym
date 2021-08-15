@@ -361,7 +361,7 @@ input:hover
     text-align: center;
 }
 
-/* Cards */
+/* CARDS */
 .member-cards
 {
     width: 80%;
@@ -415,6 +415,11 @@ input:hover
     padding: 1rem;
     width: 60%;
     margin-bottom: 1rem;
+}
+
+.card-content > p
+{
+    font-size: 0.8rem;
 }
 
 .dollar-value

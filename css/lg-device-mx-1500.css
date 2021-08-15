@@ -132,12 +132,45 @@
 
     /* *****MEMBERSHIP PAGE***** */
 
+    /* HERO */
+    .hero
+    {
+        height: 40vh;
+    }
+
     /* CARD ITEMS */
+    .member-cards
+    {
+        top: 35rem;
+    }
+
     .member-cards > article
     {
         top: 0;
-        height: 30vh;
+        height: 22vh;
     }
+
+    .card-content
+    {
+        padding: 1rem;
+    }
+
+    .renewal
+    {
+        top: 8rem;
+    }
+
+    .card-description
+    {
+        top: 10rem;
+    }
+
+    .package-period
+    {
+        top: 14rem;
+    }
+
+   
      
 }
 

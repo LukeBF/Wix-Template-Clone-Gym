@@ -1,0 +1,27 @@
+@media (max-width: 1500px) and (orientation: landscape){
+    /* Membership */
+    .hero
+    {
+        height: 50vh;
+    }
+
+    .member-cards
+    {
+        top: 20rem;
+    }
+
+    .member-cards > article
+    {
+        height: 60vh;
+    }
+
+    .card-description
+    {
+        padding: 0 1rem;
+    }
+
+    .footer
+    {
+        top: 20rem;
+    }
+}

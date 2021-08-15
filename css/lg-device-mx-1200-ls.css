@@ -1,0 +1,12 @@
+@media (max-width: 1199.98px) and (orientation: landscape){
+    /* Membership */
+    .hero
+    {
+        height: 60vh;
+    }
+
+    .member-cards > article
+    {
+        height: 60vh;
+    }
+}

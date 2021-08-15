@@ -121,9 +121,10 @@
     }
 
     /* *****Membership Page***** */
+    /* HERO */
     .hero
     {
-        height: 60vh;
+        height: 30vh;
     }
 
     .hero > div
@@ -141,6 +142,7 @@
         width: 60%;
     }
     
+    /* CARDS */
     .member-cards
     {
         position: static;
@@ -150,7 +152,12 @@
 
     .member-cards > article
     {
-        height: 70vh;
+        height: 25vh;
+    }
+
+    .footer > div
+    {
+        top: 20%;
     }
 
     /* Utilities */

@@ -1,0 +1,6 @@
+@media (max-width: 575.98px) and (orientation: landscape) {
+    .member-cards > article
+    {
+        height: 60vh;
+    }
+}
